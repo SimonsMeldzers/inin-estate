@@ -360,7 +360,7 @@
 }
 #section-icons-link:hover{
     color: #ac905ea2;
-    transition: ease-in 0.2s;
+    transition: 0.2s ease-in;
     font-size: 17px !important;
 }
 

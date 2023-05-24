@@ -17,6 +17,8 @@ import { useState } from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+import Router from "next/router";
+
 
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
@@ -24,9 +26,18 @@ function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
 
   const { locale, locales, push } = useRouter();
+  
+  const delay = ms => new Promise(res => setTimeout(res, ms));
 
-  const handleClick = (l) => () => {
-    push("/", undefined, { locale: l });
+  const handleClick = (l) => async () => {
+    if (l == 'en'){
+      push("/", undefined, { locale: l });    
+    }
+    else {
+        push("/", undefined, { locale: l });
+        await delay(1500);
+        Router.reload();
+    }
   };
 
   const handleOpenNavMenu = (event) => {

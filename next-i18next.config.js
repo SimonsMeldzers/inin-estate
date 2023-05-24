@@ -6,6 +6,7 @@ module.exports = {
     locales: ['en', 'de', 'lv', 'ru'], 
     // the default locale to be used when visiting
     // a non-localized route (e.g. `/about`)   
-    defaultLocale: 'en'
-  },
+    defaultLocale: 'en', // Set the default locale to 'en'
+
+}
 }

@@ -1,0 +1,130 @@
+@media (max-width:700px) {
+    #footer-divider1{
+        margin-right: 10px;
+    }
+    #footer-divider2{
+        display: none !important;
+    }
+}
+
+@media (max-width:490px) {
+    #footer-divider1{
+        display: none !important;
+    }
+    .footer-column{
+        margin: 0px 0px 20px 50px !important;
+        width: 100% !important;
+    }
+
+}
+@media (max-width:270px) {
+    .footer-column{
+        margin: 0px 0px 20px 3px !important;
+    }
+
+}
+
+.footer-container{
+    padding: 40px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+
+.footer-column h3{
+    font-family: Ubuntu !important;
+    margin-bottom: 20px;
+}
+
+#footer-links::before {
+    margin-left: auto;
+}
+  
+#footer-links::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #AC905E;
+    display: block;
+    transition: 0.5s;
+}
+  
+#footer-links:hover::after {
+    width: 50%;
+}
+
+
+
+
+#phone, #mail{
+    font-size: 23px;
+    color: #4F4F4F;
+    margin-right: 7px;
+}
+.footer-phone{
+    padding-top: -10px;
+    color: #4F4F4F;
+}
+
+#footer-divider1{
+    height: 300px;
+    background-color: #AC905E;
+    width: 3px;
+}
+#footer-divider2{
+    height: 300px;
+    background-color: #AC905E;
+    width: 3px;
+}
+
+#footer-socials{
+    color: #4f4f4f;
+    transition: 0.5s ease;
+}
+#footer-socials:hover{
+    color: #AC905E;
+    font-size: 38px;
+    transition: 0.5s ease;
+}
+
+
+
+/* Mini footer */
+
+.mini-footer-container{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #AC905E;
+    justify-content: center;
+    align-content: center;
+}
+
+.mini-footer-content{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    align-self: center;
+}
+.mini-footer-content p{
+    color: white;
+    display: flex;
+    margin: auto 0 auto 0;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#footer-lng-selector{
+    display: flex;
+    align-self: right;
+    margin-left: auto;
+}
+.footer-language-switch{
+    height: 30px !important;
+    color: white;
+    background: rgba(217, 217, 217, 0.14);
+    backdrop-filter: blur(2px);
+    margin: auto;
+}
