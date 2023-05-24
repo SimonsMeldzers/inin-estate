@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import EastIcon from "@mui/icons-material/East";
 import JoinSection from "./JoinSection";
+import IconSection from "./IconSection";
 
 function HomeSection() {
   return (
@@ -99,7 +100,12 @@ function HomeSection() {
           </div>
         </div>
       </div>
+
+      {/* Join clients' zone section */}
       <JoinSection/>
+
+      {/* Icon info section */}
+      <IconSection/>
 
     </div>
   );

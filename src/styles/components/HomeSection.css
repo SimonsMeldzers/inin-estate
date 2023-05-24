@@ -327,3 +327,41 @@
         align-self: center;
     }
 }
+@media (max-width: 360px) {
+    .section-join-container{
+        margin-top: 50px !important;
+    }
+}
+
+/* Icons info section */
+.section-icons-container{
+    margin-bottom: 30px;
+}
+
+.section-icons-item{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px !important;
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    min-height: 240px;
+}
+.section-icons-item h5{
+    color: black ;
+}
+#section-icons-text{
+    margin: 7px 0px 0px 38px;
+    color: #4f4f4f;
+}
+#section-icons-link{
+    color: #AC905E;
+    margin: auto auto 0px 38px;
+    justify-self: bottom;
+}
+#section-icons-link:hover{
+    color: #ac905ea2;
+    transition: ease-in 0.2s;
+    font-size: 17px !important;
+}
+
+

@@ -95,6 +95,30 @@ function Navbar() {
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">About Us</Typography>
               </MenuItem>
+              <MenuItem>
+                <Box
+                  id="lng-selector-mobile"
+                  sx={{
+                    display: "flex",
+                    justifyContent: "left",
+                  }}
+                >
+                  <FormControl>
+                    <Select
+                      color="primary"
+                      className="navbar-language-switch"
+                      sx={{color: 'black !important'}}
+                      defaultValue={locale}
+                    >
+                      {locales.map((l) => (
+                        <MenuItem key={l} value={l} onClick={handleClick(l)}>
+                          {l}
+                        </MenuItem>
+                      ))}
+                    </Select>
+                  </FormControl>
+                </Box>
+              </MenuItem>
             </Menu>
           </Box>
 
@@ -135,7 +159,10 @@ function Navbar() {
               About Us
             </Button>
           </Box>
-          <Box sx={{ minWidth: 120, display:'flex', justifyContent: 'right'}}>
+          <Box
+            id="lng-selector"
+            sx={{ minWidth: 120, display: "flex", justifyContent: "right" }}
+          >
             <FormControl>
               <Select
                 color="secondary"
@@ -159,7 +186,7 @@ function Navbar() {
             >
               {" "}
               {t("navbar-link-clientzone")}{" "}
-              <AccountCircleIcon sx={{ml:0.4}}/>
+              <AccountCircleIcon sx={{ ml: 0.4 }} />
             </Button>
           </Box>
         </Toolbar>
