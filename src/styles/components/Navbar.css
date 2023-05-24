@@ -28,7 +28,7 @@
 
 .navbar-language-switch{
     height: 30px !important;
-    color: white;
+    color: white !important;
     background: rgba(217, 217, 217, 0.14);
     backdrop-filter: blur(2px);
 }

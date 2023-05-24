@@ -7,6 +7,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
+import HomeSection from './components/HomeSection';
 
 const theme = createTheme({
   palette: {
@@ -37,7 +38,7 @@ export default function Home() {
     <ThemeProvider theme={theme}>
       <Navbar/>
       <Banner bannerImg='https://i.ibb.co/XCb0B5G/main-banner.png'/>
-      
+      <HomeSection/>
     </ThemeProvider>
   )
 }
