@@ -1,3 +1,9 @@
+@media (min-width: 1200px) {
+    .navbar{
+        padding: 0px 16% 0px 16%;
+    }
+}
+
 @media (min-width: 900px) {
     .navbar-mobile-logo{
         display: none !important;
