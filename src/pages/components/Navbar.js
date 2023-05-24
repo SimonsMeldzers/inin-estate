@@ -135,11 +135,10 @@ function Navbar() {
               About Us
             </Button>
           </Box>
-          <Box sx={{ minWidth: 120, mr:1}}>
-            <FormControl fullWidth>
+          <Box sx={{ minWidth: 120, display:'flex', justifyContent: 'right'}}>
+            <FormControl>
               <Select
-              color="secondary"
-                id="demo-simple-select-standard"
+                color="secondary"
                 className="navbar-language-switch"
                 defaultValue={locale}
               >

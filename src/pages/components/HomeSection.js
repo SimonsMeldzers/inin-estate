@@ -5,6 +5,7 @@ import EastIcon from '@mui/icons-material/East';
 
 function HomeSection() {
   return (
+
     <div className="section-container">
       <Typography id="section-title" variant="h4" component="h1">
         Vast variaety of designs.
