@@ -119,7 +119,7 @@ function Navbar() {
           </Box>
           
           <Box sx={{ flexGrow: 0 }}>
-            <Button variant='outlined' color='secondary'> {t("navbar-link-clientzone")} </Button>
+            <Button variant='contained' color='primary'> {t("navbar-link-clientzone")} </Button>
           </Box>
         </Toolbar>
       </Container>

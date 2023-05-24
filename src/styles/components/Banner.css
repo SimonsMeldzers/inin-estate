@@ -1,0 +1,33 @@
+.banner-container{
+    /* background-image: url('https://i.ibb.co/XCb0B5G/main-banner.png'); */
+    background-position: center bottom;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 800px;
+    width: 100%;
+    border-radius: 0px;
+    display: flex;
+}
+.banner-content{
+    color: white;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(132, 132, 132, 0.5);
+    backdrop-filter: blur(1.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    padding: 30px 20px 30px 20px;
+    margin-left: 14%;
+}
+
+#banner-subtext{
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 300;
+}
+#banner-title{
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 300;
+}

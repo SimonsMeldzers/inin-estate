@@ -3,7 +3,26 @@ import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
 import Navbar from './components/Navbar';
+import Banner from './components/Banner';
+
+const theme = createTheme({
+  palette: {
+     primary: {
+        main: '#AC905E',
+     },
+     secondary: {
+      main: '#EDDBBD',
+      contrastText: '#FFFFFF',
+   },
+  },
+  typography: {
+    "fontFamily": `"Open Sans"`,
+    "fontWeightRegular": 200,
+  }
+});
 
 export default function Home() {
   const { t } = useTranslation()
@@ -15,15 +34,16 @@ export default function Home() {
   }
 
   return (
-    <>
-    <Navbar/>
-     <h1>{t("HELLO_WORLD")}</h1>
-      {locales.map(l => (
-        <button key={l} onClick={handleClick(l)}>
-          {l}
-        </button>
-      ))}
-    </>
+    <ThemeProvider theme={theme}>
+      <Navbar/>
+      <Banner bannerImg='https://i.ibb.co/XCb0B5G/main-banner.png'/>
+      <h1>{t("HELLO_WORLD")}</h1>
+        {locales.map(l => (
+          <button key={l} onClick={handleClick(l)}>
+            {l}
+          </button>
+        ))}
+    </ThemeProvider>
   )
 }
 
