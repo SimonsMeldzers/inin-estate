@@ -1,3 +1,14 @@
+@media (max-width: 900px) {
+    .banner-container{
+        height: 600px !important;
+    }
+    .banner-content{
+        justify-self: center !important;
+        margin: auto !important;
+        width: 95% !important;
+    }
+}
+
 .banner-container{
     /* background-image: url('https://i.ibb.co/XCb0B5G/main-banner.png'); */
     background-position: center bottom;
@@ -9,7 +20,6 @@
     display: flex;
 }
 .banner-content{
-    color: white;
     display: flex;
     align-self: center;
     flex-direction: column;
@@ -23,11 +33,8 @@
     margin-left: 14%;
 }
 
-#banner-subtext{
+#banner-subtext, #banner-title{
     font-family: 'Ubuntu', sans-serif !important;
     font-weight: 300;
-}
-#banner-title{
-    font-family: 'Ubuntu', sans-serif !important;
-    font-weight: 300;
+    color: white;
 }

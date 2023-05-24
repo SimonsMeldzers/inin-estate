@@ -25,3 +25,13 @@
     width: 100px;
     margin: 10px auto 10px auto;
 }
+
+.navbar-language-switch{
+    height: 30px !important;
+    color: white;
+    background: rgba(217, 217, 217, 0.14);
+    backdrop-filter: blur(2px);
+}
+#navbar-link{
+    font-weight: 300 !important;
+}
