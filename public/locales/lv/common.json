@@ -1,4 +1,11 @@
 { 
     "HELLO_WORLD": "Sveiki!",
-    "navbar-link-clientzone": "Klientu zona"
+    "navbar-link-clientzone": "Klientu zona",
+    "navbar-links": [
+        "Home",
+        "Projects",
+        "Partners",
+        "Exports",
+        "About Us"
+    ]
 }

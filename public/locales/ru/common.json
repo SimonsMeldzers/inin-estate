@@ -1,4 +1,11 @@
 { 
     "HELLO_WORLD": "Хай",
-    "navbar-link-clientzone": "Зона клиентов"
+    "navbar-link-clientzone": "Зона клиентов",
+    "navbar-links": [
+        "Home",
+        "Projects",
+        "Partners",
+        "Exports",
+        "About Us"
+    ]
 }

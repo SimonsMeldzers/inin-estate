@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/components/Navbar.css'
 
 import { appWithTranslation } from 'next-i18next'
 

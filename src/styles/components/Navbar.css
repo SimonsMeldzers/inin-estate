@@ -1,0 +1,27 @@
+@media (min-width: 900px) {
+    .navbar-mobile-logo{
+        display: none !important;
+    }
+}
+@media (max-width: 900px) {
+    .navbar-pc-logo{
+        display: none !important;
+    }
+}
+
+
+.navbar{
+    background: rgba(0, 0, 0, 0.2);
+    /* Minimal browser support */
+    backdrop-filter: blur(2px); 
+}
+
+.navbar-pc-logo{
+    width: 110px;
+    margin: 10px 5px 10px 5px;
+}
+
+.navbar-mobile-logo{
+    width: 100px;
+    margin: 10px auto 10px auto;
+}

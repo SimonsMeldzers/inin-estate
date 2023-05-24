@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <>
-    <Navbar l={locales} t={t}/>
+    <Navbar/>
      <h1>{t("HELLO_WORLD")}</h1>
       {locales.map(l => (
         <button key={l} onClick={handleClick(l)}>
