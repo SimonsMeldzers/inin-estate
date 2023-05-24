@@ -1,8 +1,13 @@
 import { Paper, Typography, Button } from "@mui/material";
 import Link from "next/link";
 
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
+
+
+
 function Banner({ bannerImg }) {
-    console.log(bannerImg)
+  const { t } = useTranslation();
 
   return (
     <>
@@ -13,13 +18,10 @@ function Banner({ bannerImg }) {
       >
         <div className="banner-content">
           <Typography id="banner-title" variant="h3" component="h1">
-            {" "}
-            Custom Projects{" "}
+            {t("banner-title")}
           </Typography>
           <Typography id="banner-subtext" variant="h6" component="h2">
-            {" "}
-            Crafted for life. Our custom wooden facade houses offer modern
-            design, unparalleled energy efficiency, and lasting durability.{" "}
+            {t("banner-text")}
           </Typography>
         </div>
       </Paper>
@@ -28,3 +30,15 @@ function Banner({ bannerImg }) {
 }
 
 export default Banner;
+
+export async function getStaticProps(context) {
+  // extract the locale identifier from the URL
+  const { locale } = context;
+
+  return {
+    props: {
+      // pass the translation props to the page component
+      ...(await serverSideTranslations(locale)),
+    },
+  };
+}

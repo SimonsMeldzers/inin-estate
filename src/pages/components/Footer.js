@@ -5,6 +5,8 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
@@ -13,7 +15,8 @@ import Router from "next/router";
 
 
 function Footer() {
-    
+    const { t } = useTranslation();
+
     const { locale, locales, push } = useRouter();
 
     const delay = ms => new Promise(res => setTimeout(res, ms));

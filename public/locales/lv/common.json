@@ -1,11 +1,13 @@
 { 
-    "HELLO_WORLD": "Sveiki!",
     "navbar-link-clientzone": "Klientu zona",
-    "navbar-links": [
-        "Home",
-        "Projects",
-        "Partners",
-        "Exports",
-        "About Us"
-    ]
+    "navbar-link-home": "Galvenā",
+    "navbar-link-projects": "Projekti",
+    "navbar-link-partners": "Partneri",
+    "navbar-link-exports": "Eksports",
+    "navbar-link-aboutus": "Par Mums",
+
+    "banner-title": "Pielāgoti projekti",
+    "banner-text": "Izstrādāts uz mūžu. Mūsu pielāgotās koka fasādes mājas piedāvā modernu dizainu, nepārspējamu energoefektivitāti un ilgstošu izturību.",
+    
+    "":""
 }

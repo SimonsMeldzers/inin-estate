@@ -1,11 +1,13 @@
 { 
-    "HELLO_WORLD": "Хай",
     "navbar-link-clientzone": "Зона клиентов",
-    "navbar-links": [
-        "Home",
-        "Projects",
-        "Partners",
-        "Exports",
-        "About Us"
-    ]
+    "navbar-link-home": "Главная",
+    "navbar-link-projects": "Проекты",
+    "navbar-link-partners": "Партнеры",
+    "navbar-link-exports": "Экспорт",
+    "navbar-link-aboutus": "О нас",
+
+    "banner-title": "Индивидуальные проекты",
+    "banner-text": "Создан для жизни. Наши индивидуальные деревянные фасадные дома отличаются современным дизайном, непревзойденной энергоэффективностью и долговечностью.",
+    
+    "":""
 }

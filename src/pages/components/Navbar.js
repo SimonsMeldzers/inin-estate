@@ -92,19 +92,19 @@ function Navbar() {
               }}
             >
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">Home</Typography>
+                <Typography textAlign="center">{t("navbar-link-home")}</Typography>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">Projects</Typography>
+                <Typography textAlign="center">{t("navbar-link-projects")}</Typography>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">Partners</Typography>
+                <Typography textAlign="center">{t("navbar-link-partners")}</Typography>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">Exports</Typography>
+                <Typography textAlign="center">{t("navbar-link-exports")}</Typography>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">About Us</Typography>
+                <Typography textAlign="center">{t("navbar-link-aboutus")}</Typography>
               </MenuItem>
               <MenuItem>
                 <Box
@@ -139,21 +139,21 @@ function Navbar() {
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              Home
+              {t("navbar-link-home")}
             </Button>
             <Button
               id="navbar-link"
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              Projects
+              {t("navbar-link-projects")}
             </Button>
             <Button
               id="navbar-link"
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              Partners
+              {t("navbar-link-partners")}
             </Button>
             <Button
               id="navbar-link"
@@ -167,7 +167,7 @@ function Navbar() {
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              About Us
+              {t("navbar-link-aboutus")}
             </Button>
           </Box>
           <Box

@@ -1,11 +1,13 @@
 { 
-    "HELLO_WORLD": "Hello, World!",
     "navbar-link-clientzone": "Clients' zone",
-    "navbar-links": [
-        "Home",
-        "Projects",
-        "Partners",
-        "Exports",
-        "About Us"
-    ]
+    "navbar-link-home": "Home",
+    "navbar-link-projects": "Projects",
+    "navbar-link-partners": "Partners",
+    "navbar-link-exports": "Exports",
+    "navbar-link-aboutus": "About Us",
+
+    "banner-title": "Custom Projects",
+    "banner-text": "Crafted for life. Our custom wooden facade houses offer modern design, unparalleled energy efficiency, and lasting durability.",
+    
+    "":""
 }

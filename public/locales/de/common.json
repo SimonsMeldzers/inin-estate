@@ -1,11 +1,13 @@
 { 
-    "HELLO_WORLD": "Halo!",
     "navbar-link-clientzone": "Kundenzone",
-    "navbar-links": [
-        "Home",
-        "Projects",
-        "Partners",
-        "Exports",
-        "About Us"
-    ]
+    "navbar-link-home": "Heim",
+    "navbar-link-projects": "Projekte",
+    "navbar-link-partners": "Partner",
+    "navbar-link-exports": "Exporte",
+    "navbar-link-aboutus": "Über uns",
+
+    "banner-title": "Benutzerdefinierte Projekte",
+    "banner-text": "Geschaffen fürs Leben. Unsere maßgefertigten Häuser mit Holzfassade bieten modernes Design, beispiellose Energieeffizienz und dauerhafte Haltbarkeit.",
+    
+    "":""
 }
