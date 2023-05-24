@@ -2,6 +2,7 @@ import { Button, Paper, Typography } from "@mui/material";
 import Link from "next/link";
 
 import EastIcon from "@mui/icons-material/East";
+import JoinSection from "./JoinSection";
 
 function HomeSection() {
   return (
@@ -98,15 +99,7 @@ function HomeSection() {
           </div>
         </div>
       </div>
-
-        {/* Join clients' zone section */}
-
-        <div className="section-join-container">
-            <span className="section-join-square" id="section-join-square-1"></span>
-            <span className="section-join-square" id="section-join-square-2"></span>
-            <span className="section-join-square" id="section-join-square-3"></span>
-
-        </div>
+      <JoinSection/>
 
     </div>
   );

@@ -169,7 +169,7 @@
 #section-decore-right-text{
     margin: 0px 15px 0 0px;
     color: white;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 #section-decore-right-inin{
@@ -285,30 +285,45 @@
 /* https://i.ibb.co/pwrmmpx/join-clientzone-img-pc.png */
 
 .section-join-container{
+    display: flex;
     margin: 50px 0px 50px 0px;
-    height: 650px;
+    height: 620px;
     background-image: url('https://i.ibb.co/71CVvjP/join-clientzone-img.png');
     background-position: center bottom;
     background-repeat: no-repeat; 
     background-size: cover; 
     width: 100%;
-    display: flex;
-    position: relative;
 }
 
-.section-join-square{
-    position: absolute;
-    width: 380px;
-    height: 250px;
-    background-color: #c09f6688;
-    z-index: -1;
+.section-join-content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 10%;
+    align-self: center;
+    color: white;
 }
-#section-join-square-1{
-    translate: -30px -30px;
+
+.section-join-button{
+    margin: 30px 0 0 0 !important;
+    width: 180px;
+    font-weight: 300 !important;
+    border-radius: 0px !important;
+    height: 50px !important;
+    box-shadow: 0px 0px 10px rgba(192, 159, 102, 0.8) !important;
 }
-#section-join-square-2{
-    translate: 480px 420px;
+
+@media (max-width: 1220px) {
+    .section-join-container{
+        height: 500px !important;
+        margin-top: -20px !important;
+    }
 }
-#section-join-square-3{
-    translate: 1130px 220px;
+
+@media (max-width: 600px) {
+    .section-join-content{
+        width: 90% !important;
+        margin: auto !important;
+        align-self: center;
+    }
 }
