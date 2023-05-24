@@ -29,7 +29,7 @@ function Navbar() {
   const { t } = useTranslation()
 
   return (
-    <AppBar position="absolute" className='navbar'>
+    <AppBar position="absolute" className='navbar' >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
         <img className='navbar-pc-logo' src="https://i.ibb.co/bFs3Vms/inin-removebg-preview-1.png" />
