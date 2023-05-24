@@ -80,9 +80,61 @@
     font-weight: 300;
 }
 .section-featured-button{
-    border-radius: 0px;
-    font-weight: 300;
-    margin: 3px 0px 10px 15px;
+    border-radius: 0px !important;
+    font-weight: 300 !important;
+    margin: 3px 0px 10px 15px !important;
+    box-shadow: 2px 2px 4px rgba(192, 159, 102, 0.4) !important;
 }
 
-/* Absolute image container */
+/* Decore container */
+
+/* https://i.ibb.co/qFpk0T8/decore.png */
+
+.section-decore-container {
+    margin: 120px 0 70px;
+}
+.section-decore{
+    display: flex;
+    height: 380px;
+    background-color: rgba(192, 159, 102, 0.5);
+}
+
+.section-decore-left, .section-decore-right{
+    width: 50%;
+}
+.section-decore-left{
+    position: relative;
+}
+.section-decore-left img{
+    position: absolute;
+    width: 640px;
+    translate: 40px -50px;
+}
+
+.section-decore-right{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#section-decore-right-text{
+
+    margin: 0px 15px 0 0px;
+    color: white;
+    font-size: 30px;
+}
+
+#section-decore-right-inin{
+    color: white;
+    font-weight: 300;
+    margin: 20px 0 0 0;
+}
+
+.section-decore-right-button{
+    margin: 30px 0 0 0 !important;
+    width: 180px;
+    font-weight: 300 !important;
+    border-radius: 0px !important;
+    height: 50px !important;
+    box-shadow: 0px 0px 10px rgba(192, 159, 102, 0.8) !important;
+}
