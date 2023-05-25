@@ -20,6 +20,7 @@ import Router from "next/router";
 
 
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import Link from "next/link";
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -91,19 +92,39 @@ function Navbar() {
               }}
             >
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">{t("navbar-link-home")}</Typography>
+                <Link href="/">
+                  <Typography textAlign="center">
+                    {t("navbar-link-home")}
+                  </Typography>
+                </Link>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">{t("navbar-link-projects")}</Typography>
+                <Link href="/Projects">
+                  <Typography textAlign="center">
+                    {t("navbar-link-projects")}
+                  </Typography>
+                </Link>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">{t("navbar-link-partners")}</Typography>
+                <Link href="/Partners">
+                  <Typography textAlign="center">
+                    {t("navbar-link-partners")}
+                  </Typography>
+                </Link>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">{t("navbar-link-exports")}</Typography>
+                <Link href="/Exports">
+                  <Typography textAlign="center">
+                    {t("navbar-link-exports")}
+                  </Typography>
+                </Link>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">{t("navbar-link-aboutus")}</Typography>
+                <Link href="/Aboutus">
+                  <Typography textAlign="center">
+                    {t("navbar-link-aboutus")}
+                  </Typography>
+                </Link>
               </MenuItem>
               <MenuItem>
                 <Box
@@ -117,7 +138,7 @@ function Navbar() {
                     <Select
                       color="primary"
                       className="navbar-language-switch"
-                      sx={{color: 'black !important'}}
+                      sx={{ color: "black !important" }}
                       defaultValue={locale}
                     >
                       {locales.map((l) => (
@@ -133,6 +154,7 @@ function Navbar() {
           </Box>
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Link href="/">
             <Button
               id="navbar-link"
               onClick={handleCloseNavMenu}
@@ -140,6 +162,8 @@ function Navbar() {
             >
               {t("navbar-link-home")}
             </Button>
+            </Link>
+            <Link href="/Projects">
             <Button
               id="navbar-link"
               onClick={handleCloseNavMenu}
@@ -147,6 +171,8 @@ function Navbar() {
             >
               {t("navbar-link-projects")}
             </Button>
+            </Link>
+            <Link href="/Partners">
             <Button
               id="navbar-link"
               onClick={handleCloseNavMenu}
@@ -154,6 +180,8 @@ function Navbar() {
             >
               {t("navbar-link-partners")}
             </Button>
+            </Link>
+            <Link href="/Exports">
             <Button
               id="navbar-link"
               onClick={handleCloseNavMenu}
@@ -161,6 +189,8 @@ function Navbar() {
             >
               {t("navbar-link-exports")}
             </Button>
+            </Link>
+            <Link href="/AboutUs">
             <Button
               id="navbar-link"
               onClick={handleCloseNavMenu}
@@ -168,6 +198,7 @@ function Navbar() {
             >
               {t("navbar-link-aboutus")}
             </Button>
+            </Link>
           </Box>
           <Box
             id="lng-selector"

@@ -45,7 +45,7 @@ function Projects() {
       <Navbar />
       {/* Bannertitle and Bannertext are found in the locales folder*/}
       <Banner
-        bannerImg="https://i.ibb.co/Z6psJF6/banner-projects.png"
+        bannerImg="https://i.ibb.co/LdWjpty/Group-121.png"
         bannerTitle="banner-title-projects"
         bannerText="banner-text-projects"
       />
