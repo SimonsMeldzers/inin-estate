@@ -1,0 +1,19 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-self: center;
+  margin: auto;
+}
+
+#section-subtitle{
+    color: #4f4f4f;
+    margin: 3px 0px 0px 17px;
+    font-weight: 300;
+}
+
+@media (max-width:500px) {
+    .projects-container{
+        width: 90% !important;
+    }
+}

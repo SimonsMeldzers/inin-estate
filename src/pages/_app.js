@@ -3,6 +3,9 @@ import '../styles/components/Navbar.css'
 import '../styles/components/Banner.css'
 import '../styles/components/HomeSection.css'
 import '../styles/components/Footer.css'
+import '../styles/components/ProjectsItem.css'
+
+import '../styles/Projects.css'
 
 import { appWithTranslation } from 'next-i18next'
 
