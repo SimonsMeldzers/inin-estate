@@ -1,0 +1,19 @@
+.partners-join-container{
+    display: flex;
+    margin: 50px 0px 50px 0px;
+    height: 620px;
+    background-image: url('https://i.ibb.co/Vjpm5mR/Group-11.png');
+    background-position: center bottom;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+}
+
+.partners-join-content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 10%;
+    align-self: center;
+    color: white;
+}
