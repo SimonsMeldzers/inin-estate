@@ -69,25 +69,25 @@ function Footer() {
         <Link id="footer-links" href="/">
           <Typography varaiant="subtitle1"> {t("footer-link-1")} </Typography>{" "}
         </Link>
-        <Link id="footer-links" href="/projects">
+        <Link id="footer-links" href="/Projects">
           {" "}
           <Typography varaiant="subtitle1"> {t("footer-link-2")} </Typography>{" "}
         </Link>
-        <Link id="footer-links" href="/partners">
+        <Link id="footer-links" href="/Partners">
           {" "}
           <Typography varaiant="subtitle1">
             {" "}
             {t("footer-link-3")}
           </Typography>{" "}
         </Link>
-        <Link id="footer-links" href="/exports">
+        <Link id="footer-links" href="/Exports">
           {" "}
           <Typography varaiant="subtitle1">
             {" "}
             {t("footer-link-4")}
           </Typography>{" "}
         </Link>
-        <Link id="footer-links" href="/aboutus">
+        <Link id="footer-links" href="/Aboutus">
           {" "}
           <Typography varaiant="subtitle1">
             {" "}

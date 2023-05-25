@@ -6,7 +6,7 @@ import { useTranslation } from "next-i18next";
 
 
 
-function Banner({ bannerImg }) {
+function Banner({ bannerImg, bannerTitle, bannerText }) {
   const { t } = useTranslation();
 
   return (
@@ -18,10 +18,10 @@ function Banner({ bannerImg }) {
       >
         <div className="banner-content">
           <Typography id="banner-title" variant="h3" component="h1">
-            {t("banner-title")}
+            {t(bannerTitle)}
           </Typography>
           <Typography id="banner-subtext" variant="h6" component="h2">
-            {t("banner-text")}
+            {t(bannerText)}
           </Typography>
         </div>
       </Paper>
