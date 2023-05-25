@@ -23,7 +23,7 @@ function HomeSection() {
         <Paper id="section-featured-item-1" className="section-featured-item">
           <img src="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
           <Typography id="section-featured-name" variant="h5">
-            Open Plan & Low Profile
+          {t("featured-name-1")}
           </Typography>
           <div className="section-featured-square-box">
             <Typography sx={{ fontWeight: "400" }} variant="h6">
@@ -31,17 +31,17 @@ function HomeSection() {
             </Typography>
           </div>
           <Typography id="section-featured-price" variant="subtitle2">
-            Starting price ~70.000€
+            {t("featured-price")} ~70.000€
           </Typography>
           <Button className="section-featured-button" variant="contained">
-            Make An Offer
+            {t("featured-button")}
           </Button>
         </Paper>
 
         <Paper id="section-featured-item-2" className="section-featured-item">
           <img src="https://i.ibb.co/yPzZt3X/house-for-two-artists-mikael-bergquist-arkitektkontor-9.jpg" />
           <Typography id="section-featured-name" variant="h5">
-            Open Terrace & Wide window
+            {t("featured-name-2")}
           </Typography>
           <div className="section-featured-square-box">
             <Typography sx={{ fontWeight: "400" }} variant="h6">
@@ -49,17 +49,17 @@ function HomeSection() {
             </Typography>
           </div>
           <Typography id="section-featured-price" variant="subtitle2">
-            Starting price ~30.000€
+            {t("featured-price")} ~30.000€
           </Typography>
           <Button className="section-featured-button" variant="contained">
-            Make An Offer
+            {t("featured-button")}
           </Button>
         </Paper>
 
         <Paper id="section-featured-item-3" className="section-featured-item">
           <img src="https://i.ibb.co/58qfmg3/climate-change-image.jpg" />
           <Typography id="section-featured-name" variant="h5">
-            Modern twin houses
+            {t("featured-name-3")}
           </Typography>
           <div className="section-featured-square-box">
             <Typography sx={{ fontWeight: "400" }} variant="h6">
@@ -67,10 +67,10 @@ function HomeSection() {
             </Typography>
           </div>
           <Typography id="section-featured-price" variant="subtitle2">
-            Starting price ~65.000€
+            {t("featured-price")} ~65.000€
           </Typography>
           <Button className="section-featured-button" variant="contained">
-            Make An Offer
+            {t("featured-button")}
           </Button>
         </Paper>
         
@@ -89,19 +89,17 @@ function HomeSection() {
               variant="h4"
               component="h2"
             >
-              “We specialize in crafting unique custom houses tailored to your
-              needs. Our team of skilled professionals take pride in producing
-              high-quality work that is unmatched in the industry!,,
+              {t("decore-text")}
             </Typography>
             <Typography
               id="section-decore-right-inin"
               variant="h6"
               component="p"
             >
-              - InIn estate
+              - InIn Estate
             </Typography>
             <Button className="section-decore-right-button" variant="contained">
-              Learn More <EastIcon fontSize="small" sx={{ ml: 1 }} />
+              {t("decore-button")} <EastIcon fontSize="small" sx={{ ml: 1 }} />
             </Button>
           </div>
         </div>

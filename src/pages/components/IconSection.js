@@ -7,8 +7,12 @@ import Link from 'next/link';
 
 import EastIcon from "@mui/icons-material/East";
 
+import { useTranslation } from "next-i18next";
+
 
 function IconSection() {
+  const { t } = useTranslation();
+
   return (
     <div className="section-icons-container">
         <Grid container rowSpacing={2} columnSpacing={{ xs: 2, md: 2 }}>
@@ -17,12 +21,12 @@ function IconSection() {
           <Paper className='section-icons-item'>
             <div style={{display: 'flex'}}>
                 <img width="30px" height="30px" src="https://i.ibb.co/cDNfNrL/hand.png" style={{marginRight:'7px'}}/>
-                <Typography variant='h5'> Energy Efficient </Typography>
+                <Typography variant='h5'> {t("icons-name-1")} </Typography>
             </div>
-            <Typography id="section-icons-text" variant='subtitle' component='p'> From insulation to materials, we prioritize energy efficiency to help you save on your utility bills.</Typography>
+            <Typography id="section-icons-text" variant='subtitle' component='p'> {t("icons-text-1")}</Typography>
             <Link href='/' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
-                    See More <EastIcon fontSize="small" sx={{ pt: 1}} /> 
+                  {t("icons-button")} <EastIcon fontSize="small" sx={{ pt: 1}} /> 
                 </Typography>
             </Link>
           </Paper>
@@ -32,12 +36,12 @@ function IconSection() {
           <Paper className='section-icons-item'>
             <div style={{display: 'flex', wordBreak: 'break-all'}}>
                 <img width="30px" height="30px" src="https://i.ibb.co/WpT7YmB/leaves-1.png" style={{marginRight:'7px'}}/>
-                <Typography variant='h5'> Sustainability </Typography>
+                <Typography variant='h5'> {t("icons-name-2")} </Typography>
             </div>
-            <Typography id="section-icons-text" variant='subtitle' component='p'> Our custom wooden facade houses are constructed with responsibly-sourced materials and incorporate eco-friendly practices throughout the building process.</Typography>
+            <Typography id="section-icons-text" variant='subtitle' component='p'> {t("icons-text-2")}</Typography>
             <Link href='/' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
-                    See More <EastIcon fontSize="small" sx={{ pt: 1}} /> 
+                  {t("icons-button")} <EastIcon fontSize="small" sx={{ pt: 1}} /> 
                 </Typography>
             </Link>
           </Paper>
@@ -47,12 +51,12 @@ function IconSection() {
           <Paper className='section-icons-item'>
             <div style={{display: 'flex'}}>
                 <img width="30px" height="30px" src="https://i.ibb.co/7zcKPXL/light-bulb-1.png" style={{marginRight:'7px'}}/>
-                <Typography variant='h5'> Aesthetics </Typography>
+                <Typography variant='h5'> {t("icons-name-3")} </Typography>
             </div>
-            <Typography id="section-icons-text" variant='subtitle' component='p'> With a focus on quality craftsmanship and attention to detail, we create homes that are as beautiful as they are functional.</Typography>
+            <Typography id="section-icons-text" variant='subtitle' component='p'> {t("icons-text-3")}</Typography>
             <Link href='/' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
-                    See More <EastIcon fontSize="small" sx={{ pt: 1}} /> 
+                  {t("icons-button")} <EastIcon fontSize="small" sx={{ pt: 1}} /> 
                 </Typography>
             </Link>
           </Paper>
@@ -62,12 +66,12 @@ function IconSection() {
           <Paper className='section-icons-item'>
             <div style={{display: 'flex'}}>
                 <img width="30px" height="30px" src="https://i.ibb.co/7rJD8bY/smart-home-1.png" style={{marginRight:'7px'}}/>
-                <Typography variant='h5'> Functionality </Typography>
+                <Typography variant='h5'> {t("icons-name-4")} </Typography>
             </div>
-            <Typography id="section-icons-text" variant='subtitle' component='p'> Both energy-efficient appliances and smart home technology, we incorporate features that make everyday life easier and more comfortable.</Typography>
+            <Typography id="section-icons-text" variant='subtitle' component='p'> {t("icons-text-4")}</Typography>
             <Link href='/' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
-                    See More <EastIcon fontSize="small" sx={{ pt: 1}} /> 
+                  {t("icons-button")} <EastIcon fontSize="small" sx={{ pt: 1}} /> 
                 </Typography>
             </Link>
           </Paper>
