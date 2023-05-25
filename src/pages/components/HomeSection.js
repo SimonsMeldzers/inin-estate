@@ -15,7 +15,7 @@ function HomeSection() {
 
       <div className="section-featured-container">
         <Paper id="section-featured-item-1" className="section-featured-item">
-          <img src="https://i.ibb.co/TgC4vHH/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
+          <img src="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
           <Typography id="section-featured-name" variant="h5">
             Open Plan & Low Profile
           </Typography>
@@ -33,9 +33,9 @@ function HomeSection() {
         </Paper>
 
         <Paper id="section-featured-item-2" className="section-featured-item">
-          <img src="https://i.ibb.co/TgC4vHH/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
+          <img src="https://i.ibb.co/58qfmg3/climate-change-image.jpg" />
           <Typography id="section-featured-name" variant="h5">
-            Open Plan & Low Profile
+            Open Terrace & Wide window
           </Typography>
           <div className="section-featured-square-box">
             <Typography sx={{ fontWeight: "400" }} variant="h6">
@@ -51,9 +51,9 @@ function HomeSection() {
         </Paper>
 
         <Paper id="section-featured-item-3" className="section-featured-item">
-          <img src="https://i.ibb.co/TgC4vHH/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
+          <img src="https://i.ibb.co/yPzZt3X/house-for-two-artists-mikael-bergquist-arkitektkontor-9.jpg" />
           <Typography id="section-featured-name" variant="h5">
-            Open Plan & Low Profile
+            Modern twin houses
           </Typography>
           <div className="section-featured-square-box">
             <Typography sx={{ fontWeight: "400" }} variant="h6">
