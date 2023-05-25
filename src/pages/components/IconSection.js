@@ -46,10 +46,10 @@ function IconSection() {
         <Grid item xs={12} sm={6} md={3}>
           <Paper className='section-icons-item'>
             <div style={{display: 'flex'}}>
-                <img width="30px" height="30px" src="https://i.ibb.co/cDNfNrL/hand.png" style={{marginRight:'7px'}}/>
-                <Typography variant='h5'> Energy Efficient </Typography>
+                <img width="30px" height="30px" src="https://i.ibb.co/7zcKPXL/light-bulb-1.png" style={{marginRight:'7px'}}/>
+                <Typography variant='h5'> Aesthetics </Typography>
             </div>
-            <Typography id="section-icons-text" variant='subtitle' component='p'> From insulation to materials, we prioritize energy efficiency to help you save on your utility bills.</Typography>
+            <Typography id="section-icons-text" variant='subtitle' component='p'> With a focus on quality craftsmanship and attention to detail, we create homes that are as beautiful as they are functional.</Typography>
             <Link href='/' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
                     See More <EastIcon fontSize="small" sx={{ pt: 1}} /> 
@@ -61,10 +61,10 @@ function IconSection() {
         <Grid item xs={12} sm={6} md={3}>
           <Paper className='section-icons-item'>
             <div style={{display: 'flex'}}>
-                <img width="30px" height="30px" src="https://i.ibb.co/cDNfNrL/hand.png" style={{marginRight:'7px'}}/>
-                <Typography variant='h5'> Energy Efficient </Typography>
+                <img width="30px" height="30px" src="https://i.ibb.co/7rJD8bY/smart-home-1.png" style={{marginRight:'7px'}}/>
+                <Typography variant='h5'> Functionality </Typography>
             </div>
-            <Typography id="section-icons-text" variant='subtitle' component='p'> From insulation to materials, we prioritize energy efficiency to help you save on your utility bills.</Typography>
+            <Typography id="section-icons-text" variant='subtitle' component='p'> Both energy-efficient appliances and smart home technology, we incorporate features that make everyday life easier and more comfortable.</Typography>
             <Link href='/' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
                     See More <EastIcon fontSize="small" sx={{ pt: 1}} /> 

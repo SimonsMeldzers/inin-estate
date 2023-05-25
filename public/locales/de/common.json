@@ -9,5 +9,38 @@
     "banner-title": "Benutzerdefinierte Projekte",
     "banner-text": "Geschaffen fürs Leben. Unsere maßgefertigten Häuser mit Holzfassade bieten modernes Design, beispiellose Energieeffizienz und dauerhafte Haltbarkeit.",
     
-    "":""
+    "featured-title": "Plaša dizaina dažādība.",
+    "featured-name-1" : "Offener Grundriss und niedriges Profil",
+    "featured-name-2" : "Offene Terrasse und großes Fenster",
+    "featured-name-3" : "Moderne Doppelhäuser",
+    "featured-price" : "Startpreis",
+    "featured-button" : "Machen Sie ein Angebot",
+
+    "decore-text" : "“Wir sind auf die Herstellung einzigartiger, maßgeschneiderter Häuser spezialisiert, die auf Ihre Bedürfnisse zugeschnitten sind. Unser Team aus qualifizierten Fachleuten ist stolz darauf, qualitativ hochwertige Arbeit zu leisten, die in der Branche ihresgleichen sucht!,,",
+    "decore-button" : "Lern Mehr",
+
+    "join-text" : "Treten Sie unserem Kundenbereich bei und laden Sie Ihr individuelles Projekt mit Beschreibung hoch. Unser Team wird sich so schnell wie möglich mit Ihnen in Verbindung setzen.",
+    "join-button" : "Jetzt beitreten",
+
+    "icons-name-1" : "Energieeffizient",
+    "icons-name-2" : "Nachhaltigkeit",
+    "icons-name-3" : "Ästhetik",
+    "icons-name-4" : "Funktionalität",
+    "icons-text-1" : "Von der Isolierung bis zu den Materialien legen wir Wert auf Energieeffizienz, damit Sie bei Ihren Stromrechnungen sparen können.",
+    "icons-text-2" : "Unsere maßgefertigten Häuser mit Holzfassade werden aus verantwortungsvoll beschafften Materialien gebaut und berücksichtigen während des gesamten Bauprozesses umweltfreundliche Praktiken.",
+    "icons-text-3" : "Mit einem Fokus auf hochwertige Handwerkskunst und Liebe zum Detail schaffen wir Häuser, die ebenso schön wie funktional sind.",
+    "icons-text-4" : "Sowohl energieeffiziente Geräte als auch Smart-Home-Technologie integrieren wir Funktionen, die den Alltag einfacher und komfortabler machen.",
+
+    "footer-name-1" : "Kontakte",
+    "footer-name-2" : "Speisekarte",
+    "footer-name-3" : "Folgen Sie uns",
+    "footer-link-1" : "Heim",
+    "footer-link-2" : "Projekte",
+    "footer-link-3" : "Partners",
+    "footer-link-4" : "Exporte",
+    "footer-link-5" : "Über uns",
+    "mini-footer-text" : "Alle Rechte vorbehalten",
+
+    "" : "",
+    "" : ""
 }

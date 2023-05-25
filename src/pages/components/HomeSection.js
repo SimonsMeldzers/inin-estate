@@ -5,12 +5,18 @@ import EastIcon from "@mui/icons-material/East";
 import JoinSection from "./JoinSection";
 import IconSection from "./IconSection";
 
+import { useTranslation } from "next-i18next";
+
 function HomeSection() {
+
+  const { t } = useTranslation();
+
+
   return (
     <div className="section-container">
       {/* Featured section */}
       <Typography id="section-title" variant="h4" component="h1">
-        Vast variaety of designs.
+      {t("featured-title")}
       </Typography>
 
       <div className="section-featured-container">
@@ -33,17 +39,17 @@ function HomeSection() {
         </Paper>
 
         <Paper id="section-featured-item-2" className="section-featured-item">
-          <img src="https://i.ibb.co/58qfmg3/climate-change-image.jpg" />
+          <img src="https://i.ibb.co/yPzZt3X/house-for-two-artists-mikael-bergquist-arkitektkontor-9.jpg" />
           <Typography id="section-featured-name" variant="h5">
             Open Terrace & Wide window
           </Typography>
           <div className="section-featured-square-box">
             <Typography sx={{ fontWeight: "400" }} variant="h6">
-              ~132 m²
+              ~64 m²
             </Typography>
           </div>
           <Typography id="section-featured-price" variant="subtitle2">
-            Starting price ~70.000€
+            Starting price ~30.000€
           </Typography>
           <Button className="section-featured-button" variant="contained">
             Make An Offer
@@ -51,17 +57,17 @@ function HomeSection() {
         </Paper>
 
         <Paper id="section-featured-item-3" className="section-featured-item">
-          <img src="https://i.ibb.co/yPzZt3X/house-for-two-artists-mikael-bergquist-arkitektkontor-9.jpg" />
+          <img src="https://i.ibb.co/58qfmg3/climate-change-image.jpg" />
           <Typography id="section-featured-name" variant="h5">
             Modern twin houses
           </Typography>
           <div className="section-featured-square-box">
             <Typography sx={{ fontWeight: "400" }} variant="h6">
-              ~132 m²
+              ~97 m²
             </Typography>
           </div>
           <Typography id="section-featured-price" variant="subtitle2">
-            Starting price ~70.000€
+            Starting price ~65.000€
           </Typography>
           <Button className="section-featured-button" variant="contained">
             Make An Offer
