@@ -59,6 +59,7 @@ function Footer() {
           Jur. adrese: Rīgas iela 11-12,Rīga, LV-1001 <br></br>
           Bankas rekvizīti: SWEDBANK AS SWIFT kods: HABALV23 <br></br>
           Konta Nr.: LV62HABA0851044635812<br></br>
+          TESTINGGGGGGGGGGGGGG
         </Typography>
       </div>
 
