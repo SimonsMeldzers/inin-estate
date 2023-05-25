@@ -30,7 +30,6 @@
     display: flex;
     align-self: center;
     flex-direction: column;
-    word-break: break-all;
     width: 550px;
     background: rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(132, 132, 132, 0.5);
@@ -39,6 +38,10 @@
 
     padding: 30px 20px 30px 20px;
     margin-left: 14%;
+}
+
+.banner-content h3{
+    word-break: break-all;
 }
 
 #banner-subtext, #banner-title{

@@ -120,7 +120,7 @@ function Navbar() {
                 </Link>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <Link href="/Aboutus">
+                <Link href="/AboutUs">
                   <Typography textAlign="center">
                     {t("navbar-link-aboutus")}
                   </Typography>
