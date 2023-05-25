@@ -36,7 +36,7 @@ function Footer() {
     <>
     <div className="footer-container">
       <div className="footer-column">
-        <Typography variant="h3"> Contacts </Typography>
+        <Typography variant="h3"> {t("footer-name-1")} </Typography>
 
         <div style={{ display: "flex" }}>
           <LocalPhoneOutlinedIcon id="phone" sx={{color:'#AC905E !important'}} />
@@ -55,44 +55,43 @@ function Footer() {
         </div>
 
         <Typography variant="subtitle1">
-          SIA &quot;InIn Estate&quot; Reģ. Nr.: 4242424242 <br></br>
-          Jur. adrese: Rīgas iela 11-12,Rīga, LV-1001 <br></br>
-          Bankas rekvizīti: SWEDBANK AS SWIFT kods: HABALV23 <br></br>
-          Konta Nr.: LV62HABA0851044635812<br></br>
+          SIA &quot;InIn Estate&quot; Reg. Num.: 4242424242 <br></br>
+          Address: Rīgas iela 11-12,Rīga, LV-1001 <br></br>
+          Bank: SWEDBANK AS ; SWIFT code: HABALV23 <br></br>
+          Account num.: LV62HABA0851044635812<br></br>
         </Typography>
       </div>
 
       <span id="footer-divider1"></span>
 
       <div className="footer-column">
-        <Typography variant="h3"> Menu </Typography>
+        <Typography variant="h3"> {t("footer-name-2")} </Typography>
         <Link id="footer-links" href="/">
-          {" "}
-          <Typography varaiant="subtitle1"> Home </Typography>{" "}
+          <Typography varaiant="subtitle1"> {t("footer-link-1")} </Typography>{" "}
         </Link>
         <Link id="footer-links" href="/projects">
           {" "}
-          <Typography varaiant="subtitle1"> Projects </Typography>{" "}
+          <Typography varaiant="subtitle1"> {t("footer-link-2")} </Typography>{" "}
         </Link>
         <Link id="footer-links" href="/partners">
           {" "}
           <Typography varaiant="subtitle1">
             {" "}
-            Partners
+            {t("footer-link-3")}
           </Typography>{" "}
         </Link>
         <Link id="footer-links" href="/exports">
           {" "}
           <Typography varaiant="subtitle1">
             {" "}
-            Exports
+            {t("footer-link-4")}
           </Typography>{" "}
         </Link>
         <Link id="footer-links" href="/aboutus">
           {" "}
           <Typography varaiant="subtitle1">
             {" "}
-            About Us
+            {t("footer-link-5")}
           </Typography>{" "}
         </Link>
       </div>
@@ -100,7 +99,7 @@ function Footer() {
       <span id="footer-divider2"></span>
 
       <div className="footer-column">
-        <Typography variant="h3"> Follow Us </Typography>
+        <Typography variant="h3"> {t("footer-name-3")} </Typography>
         <Link href="/">
           <FacebookSharpIcon fontSize="large" id="footer-socials" />
         </Link>
@@ -112,7 +111,7 @@ function Footer() {
     <div className='mini-footer-container'>
         <div className='mini-footer-content'>
             <Typography variant='subtitle' component='p'>
-            SIA InIn Estate © 2023 All rights reserved
+            SIA InIn Estate © {t("mini-footer-text")}
             </Typography>
             <Box
                   id="footer-lng-selector"
