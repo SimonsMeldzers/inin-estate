@@ -6,6 +6,7 @@ import '../styles/components/Footer.css'
 import '../styles/components/ProjectsItem.css'
 
 import '../styles/Projects.css'
+import '../styles/AboutUs.css'
 
 import { appWithTranslation } from 'next-i18next'
 

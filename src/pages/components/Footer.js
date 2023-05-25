@@ -87,7 +87,7 @@ function Footer() {
             {t("footer-link-4")}
           </Typography>{" "}
         </Link>
-        <Link id="footer-links" href="/Aboutus">
+        <Link id="footer-links" href="/AboutUs">
           {" "}
           <Typography varaiant="subtitle1">
             {" "}

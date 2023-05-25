@@ -45,8 +45,14 @@
 
 
 
-    "banner-title-projects" : "Kvalitatīvs Darbs",
+    "banner-title-projects" : "Paveikts Darbs",
     "banner-text-projects" : "Izpētiet pārdomāti izstrādātos interjerus, profesionālu meistarību un valdzinošus eksterjerus, kas nosaka mūsu darbu.",
-    "" : "",
+
+
+
+
+    "banner-title-aboutus" : "Kvalitatīvs Darbs",
+    "banner-text-aboutus" : "Jūsu mājām vajadzētu atspoguļot jūsu unikālo dzīvesveidu un personīgo gaumi. Tāpēc mēs piedāvājam pielāgotus risinājumus, cieši sadarbojoties ar jums visā projektēšanas un būvniecības procesā.",
+ 
     "" : ""
 }
