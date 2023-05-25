@@ -50,8 +50,8 @@ function Projects() {
       {/* Bannertitle and Bannertext are found in the locales folder*/}
       <Banner
         bannerImg="https://i.ibb.co/R4QB6zk/Group-10.png"
-        bannerTitle="banner-title-projects"
-        bannerText="banner-text-projects"
+        bannerTitle="banner-title-partners"
+        bannerText="banner-text-partners"
       />
       <div className="aboutus-container">
         <Typography id="section-title" variant="h4" component="h1">
