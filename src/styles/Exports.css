@@ -2,3 +2,16 @@
     margin: 40px 0 40px 0;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 8px;
 }
+
+.exports-icons-container{
+    margin-top: 0px;
+}
+
+.exports-icons-content-sub{
+    display: flex;
+    align-items: center;
+}
+
+#exports-subtitle1{
+    margin-left: 50px;
+}
