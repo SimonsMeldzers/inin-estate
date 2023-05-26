@@ -55,11 +55,11 @@ function Footer() {
         </div>
 
         <Typography variant="subtitle1">
-          SIA &quot;InIn Estate&quot; Reg. Num.: 4242424242 <br></br>
-          Address: Rīgas iela 11-12,Rīga, LV-1001 <br></br>
-          Bank: SWEDBANK AS <br></br>
-          SWIFT code: HABALV23 <br></br>
-          Account num.: LV62HABA0851044635812<br></br>
+          SIA &quot;InIn Estate&quot; Reg. Num.: 40203443506 <br></br>
+          Address: Liepu iela 1 - 70, Preiļi, Preiļu novads, Latvija <br></br>
+          Bank: Luminor Bank AS <br></br>
+          SWIFT code: RIKOLV2X <br></br>
+          Account num.: LV53RIKO0001080172527<br></br>
         </Typography>
       </div>
 

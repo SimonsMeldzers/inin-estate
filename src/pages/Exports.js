@@ -54,8 +54,38 @@ function Projects() {
         bannerText="banner-text-exports"
       />
       <div className="aboutus-container">
-
+        <Typography id="section-title" variant="h4" component="h1">
+          Exports around Europe
+        </Typography>
+        <Typography id="aboutus-text" variant="subtitle1" component="p">
+          Navigating the logistics of European exports is our expertise. We have
+          established reliable partnerships and efficient processes to ensure a
+          seamless experience, from transportation to on-site delivery. <br></br>
+          We are excited to connect with European clients who appreciate the artistry
+          and quality of our custom wooden facade houses. Contact us today to
+          explore how we can bring your vision to life and create a home that
+          embodies European charm and style.
+          <br></br>
+          Contact us today and let us embark on a journey together to create
+          your perfect custom wooden facade house.
+        </Typography>
+        <Button className="aboutus-button" variant="contained">
+          {" "}
+          Contatcs{" "}
+          <EastIcon fontSize="small" sx={{ ml: 1, fontSize: "15px" }} />{" "}
+        </Button>
+        <iframe
+        className="google-map"
+          src="https://snazzymaps.com/embed/494391"
+          width="100%"
+          height="500px"
+          style={{border: 'none'}}
+        ></iframe>
+        
+        <IconSection/>
+        
       </div>
+
 
       <Footer />
     </ThemeProvider>
