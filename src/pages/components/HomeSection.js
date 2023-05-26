@@ -20,7 +20,7 @@ function HomeSection() {
       </Typography>
 
       <div className="section-featured-container">
-        <Paper id="section-featured-item-1" className="section-featured-item">
+        <Paper id="section-featured-item-1" className="section-featured-item" elevation={0}>
           <img src="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
           <Typography id="section-featured-name" variant="h5">
           {t("featured-name-1")}
@@ -73,6 +73,11 @@ function HomeSection() {
             {t("featured-button")}
           </Button>
         </Paper>
+        
+        {/* <Link id="footer-links" className="section-featured-link" href="/">
+           See more 
+           <EastIcon fontSize="" sx={{ ml: 0.2, pt: 0.7 }}/>
+        </Link> */}
         
       </div>
 

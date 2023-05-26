@@ -39,7 +39,7 @@ export default function Home() {
     <ThemeProvider theme={theme}>
       <Navbar/>
       {/* Bannertitle and Bannertext are found in the locales folder*/}
-      <Banner bannerImg='https://i.ibb.co/XCb0B5G/main-banner.png' bannerTitle='banner-title' bannerText='banner-text'/>
+      <Banner bannerImg='https://i.ibb.co/wQWMgD0/4-Hill-House-renders-by-Snegiri-Architects-1587539167-693.png' bannerTitle='banner-title' bannerText='banner-text'/>
       <HomeSection/>
       <Footer/>
     </ThemeProvider>

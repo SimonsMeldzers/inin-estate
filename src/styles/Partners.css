@@ -2,11 +2,12 @@
     display: flex;
     margin: 50px 0px 50px 0px;
     height: 620px;
-    background-image: url('https://i.ibb.co/Vjpm5mR/Group-11.png');
+    background-image: url('https://i.ibb.co/LN9sm5D/Group-11.png');
     background-position: center bottom;
     background-repeat: no-repeat; 
     background-size: cover; 
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 8px;
 }
 
 .partners-join-content{

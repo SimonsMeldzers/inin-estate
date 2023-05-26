@@ -25,6 +25,7 @@
     width: 100%;
     border-radius: 0px;
     display: flex;
+    box-shadow: rgba(33, 35, 38, 0.6) 0px 10px 10px -10px;
 }
 .banner-content{
     display: flex;
