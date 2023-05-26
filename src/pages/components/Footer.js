@@ -57,7 +57,8 @@ function Footer() {
         <Typography variant="subtitle1">
           SIA &quot;InIn Estate&quot; Reg. Num.: 4242424242 <br></br>
           Address: Rīgas iela 11-12,Rīga, LV-1001 <br></br>
-          Bank: SWEDBANK AS ; SWIFT code: HABALV23 <br></br>
+          Bank: SWEDBANK AS <br></br>
+          SWIFT code: HABALV23 <br></br>
           Account num.: LV62HABA0851044635812<br></br>
         </Typography>
       </div>

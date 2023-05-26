@@ -28,7 +28,7 @@
 .section-featured-item{
     width: 400px;
     border-radius: 0px !important;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px -1px 8px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px -1px 8px !important;
 }
 
 .section-featured-item img{
@@ -274,7 +274,7 @@
         flex-direction: column !important;
         height: 300px !important;
         background-color: transparent !important;
-
+        box-shadow: none !important;
     }
     .section-decore-left{
         align-self: center;
@@ -283,12 +283,13 @@
     }
     .section-decore-left img{
         width: 450px !important;
-        translate: -40px -30px !important;
+        translate: -40px -40px !important;
     }
     .section-decore-right{
         background-color: #dfcfb2e9;
         padding: 30px 5px 30px 30px;
         width: 90% !important;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 8px;
     }
 }
 
