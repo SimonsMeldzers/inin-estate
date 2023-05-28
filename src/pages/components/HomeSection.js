@@ -1,3 +1,5 @@
+import React, { useRef, useState } from "react";
+
 import { Button, Paper, Typography } from "@mui/material";
 import Link from "next/link";
 
@@ -6,6 +8,16 @@ import JoinSection from "./JoinSection";
 import IconSection from "./IconSection";
 
 import { useTranslation } from "next-i18next";
+
+
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode, Pagination } from "swiper";
+
+
 
 function HomeSection() {
 
@@ -18,8 +30,139 @@ function HomeSection() {
       <Typography id="section-title" variant="h4" component="h1">
       {t("featured-title")}
       </Typography>
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          100: {
+            slidesPerView: 1,
+          },
+          540: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        }}
+        modules={[FreeMode, Pagination]}
+        className="mySwiper"
+      >
 
-      <div className="section-featured-container">
+        <SwiperSlide className="swiper-slides">
+          <img src="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
+          <Typography id="section-featured-name" variant="h5">
+          {t("featured-name-1")}
+          </Typography>
+          <div className="section-featured-square-box">
+            <Typography sx={{ fontWeight: "400" }} variant="h6">
+              ~132 m²
+            </Typography>
+          </div>
+          <Typography id="section-featured-price" variant="subtitle2">
+            {t("featured-price")} ~70.000€
+          </Typography>
+          <Button className="section-featured-button" variant="contained">
+            {t("featured-button")}
+          </Button>
+        </SwiperSlide>
+
+        <SwiperSlide className="swiper-slides">
+          <img src="https://i.ibb.co/yPzZt3X/house-for-two-artists-mikael-bergquist-arkitektkontor-9.jpg" />
+          <Typography id="section-featured-name" variant="h5">
+          {t("featured-name-2")}
+          </Typography>
+          <div className="section-featured-square-box">
+            <Typography sx={{ fontWeight: "400" }} variant="h6">
+              ~64 m²
+            </Typography>
+          </div>
+          <Typography id="section-featured-price" variant="subtitle2">
+            {t("featured-price")} ~30.000€
+          </Typography>
+          <Button className="section-featured-button" variant="contained">
+            {t("featured-button")}
+          </Button>
+        </SwiperSlide>
+
+        <SwiperSlide className="swiper-slides">
+          <img src="https://i.ibb.co/58qfmg3/climate-change-image.jpg" />
+          <Typography id="section-featured-name" variant="h5">
+          {t("featured-name-3")}
+          </Typography>
+          <div className="section-featured-square-box">
+            <Typography sx={{ fontWeight: "400" }} variant="h6">
+              ~97 m²
+            </Typography>
+          </div>
+          <Typography id="section-featured-price" variant="subtitle2">
+            {t("featured-price")} ~65.000€
+          </Typography>
+          <Button className="section-featured-button" variant="contained">
+            {t("featured-button")}
+          </Button>
+        </SwiperSlide>
+        
+        <SwiperSlide className="swiper-slides">
+          <img src="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
+          <Typography id="section-featured-name" variant="h5">
+          {t("featured-name-1")}
+          </Typography>
+          <div className="section-featured-square-box">
+            <Typography sx={{ fontWeight: "400" }} variant="h6">
+              ~132 m²
+            </Typography>
+          </div>
+          <Typography id="section-featured-price" variant="subtitle2">
+            {t("featured-price")} ~70.000€
+          </Typography>
+          <Button className="section-featured-button" variant="contained">
+            {t("featured-button")}
+          </Button>
+        </SwiperSlide>
+
+        <SwiperSlide className="swiper-slides">
+          <img src="https://i.ibb.co/yPzZt3X/house-for-two-artists-mikael-bergquist-arkitektkontor-9.jpg" />
+          <Typography id="section-featured-name" variant="h5">
+          {t("featured-name-2")}
+          </Typography>
+          <div className="section-featured-square-box">
+            <Typography sx={{ fontWeight: "400" }} variant="h6">
+              ~64 m²
+            </Typography>
+          </div>
+          <Typography id="section-featured-price" variant="subtitle2">
+            {t("featured-price")} ~30.000€
+          </Typography>
+          <Button className="section-featured-button" variant="contained">
+            {t("featured-button")}
+          </Button>
+        </SwiperSlide>
+
+        <SwiperSlide className="swiper-slides">
+          <img src="https://i.ibb.co/58qfmg3/climate-change-image.jpg" />
+          <Typography id="section-featured-name" variant="h5">
+          {t("featured-name-3")}
+          </Typography>
+          <div className="section-featured-square-box">
+            <Typography sx={{ fontWeight: "400" }} variant="h6">
+              ~97 m²
+            </Typography>
+          </div>
+          <Typography id="section-featured-price" variant="subtitle2">
+            {t("featured-price")} ~65.000€
+          </Typography>
+          <Button className="section-featured-button" variant="contained">
+            {t("featured-button")}
+          </Button>
+        </SwiperSlide>
+        
+
+      </Swiper>
+      {/* <div className="section-featured-container">
         <Paper id="section-featured-item-1" className="section-featured-item" elevation={0}>
           <img src="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
           <Typography id="section-featured-name" variant="h5">
@@ -73,13 +216,10 @@ function HomeSection() {
             {t("featured-button")}
           </Button>
         </Paper>
-        
-        {/* <Link id="footer-links" className="section-featured-link" href="/">
-           See more 
-           <EastIcon fontSize="" sx={{ ml: 0.2, pt: 0.7 }}/>
-        </Link> */}
-        
-      </div>
+      
+      </div> */}
+
+      
 
       {/* Decore section */}
 
@@ -117,6 +257,7 @@ function HomeSection() {
       <IconSection/>
 
     </div>
+
   );
 }
 
