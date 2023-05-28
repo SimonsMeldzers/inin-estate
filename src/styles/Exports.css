@@ -15,3 +15,13 @@
 #exports-subtitle1{
     margin-left: 50px;
 }
+
+
+.exports-icons-content:hover .exports-icons-icon{
+    transition: ease 0.3s;
+    transform: rotate(-10deg);
+}
+.exports-icons-content:not(:hover) .exports-icons-icon{
+    transition: ease 0.3s;
+    transform: rotate(0deg);
+}

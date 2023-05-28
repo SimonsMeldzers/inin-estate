@@ -84,8 +84,8 @@ function Projects() {
         >
           <Grid item xs={12} md={6} className="exports-icons-content">
             <div className="exports-icons-content-sub">
-              <PublicIcon sx={{ fontSize: "40px", color: "#AC905E" , marginRight: '10px'}} />
-              <Typography variant="h6"> International Reach </Typography>
+              <PublicIcon className="exports-icons-icon" sx={{ fontSize: "40px", color: "#AC905E" , marginRight: '10px'}} />
+              <Typography className="exports-icons-title" variant="h6"> International Reach </Typography>
             </div>
             <Typography id="exports-subtitle1" variant="subitle1" component="p">
               {" "}
@@ -96,8 +96,8 @@ function Projects() {
           </Grid>
           <Grid item xs={12} md={6} className="exports-icons-content">
             <div className="exports-icons-content-sub">
-              <HandshakeIcon sx={{ fontSize: "40px", color: "#AC905E" , marginRight: '10px'}} />
-              <Typography variant="h6">
+              <HandshakeIcon className="exports-icons-icon" sx={{ fontSize: "40px", color: "#AC905E" , marginRight: '10px'}} />
+              <Typography className="exports-icons-title" variant="h6">
                 {" "}
                 Tailored Design for European Charm{" "}
               </Typography>
@@ -112,8 +112,8 @@ function Projects() {
           </Grid>
           <Grid item xs={12} md={6} className="exports-icons-content">
             <div className="exports-icons-content-sub">
-              <LocalShippingIcon sx={{ fontSize: "40px", marginRight: '10px', color: "#AC905E" }} />
-              <Typography variant="h6"> Smooth Logistics </Typography>
+              <LocalShippingIcon className="exports-icons-icon" sx={{ fontSize: "40px", marginRight: '10px', color: "#AC905E" }} />
+              <Typography className="exports-icons-title" variant="h6"> Smooth Logistics </Typography>
             </div>
             <Typography id="exports-subtitle1" variant="subitle1" component="p">
               {" "}
@@ -125,8 +125,8 @@ function Projects() {
           </Grid>
           <Grid item xs={12} md={6} className="exports-icons-content">
             <div className="exports-icons-content-sub">
-              <ForestIcon sx={{ fontSize: "40px", color: "#AC905E" , marginRight: '10px'}} />
-              <Typography variant="h6"> Sustainability Commitment </Typography>
+              <ForestIcon className="exports-icons-icon" sx={{ fontSize: "40px", color: "#AC905E" , marginRight: '10px'}} />
+              <Typography className="exports-icons-title" variant="h6"> Sustainability Commitment </Typography>
             </div>
             <Typography id="exports-subtitle1" variant="subitle1" component="p">
               {" "}
