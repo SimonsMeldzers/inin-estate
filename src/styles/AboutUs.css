@@ -12,7 +12,7 @@
 }
 
 .aboutus-button{
-    margin: 10px 0px 0px 15px;
+    margin: 10px 0px 0px 15px !important;
     width: 140px;
     border-radius: 0px !important;
     font-weight: 300 !important;
