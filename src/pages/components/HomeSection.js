@@ -49,7 +49,7 @@ function HomeSection() {
           },
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper"
+        className="mySwiper featured-swiper"
       >
 
         <SwiperSlide className="swiper-slides">
@@ -105,7 +105,7 @@ function HomeSection() {
             {t("featured-button")}
           </Button>
         </SwiperSlide>
-        
+
         <SwiperSlide className="swiper-slides">
           <img src="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
           <Typography id="section-featured-name" variant="h5">

@@ -10,14 +10,18 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
 import { Button, Typography } from "@mui/material";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
-import Box from "@mui/material/Box";
-import ProjectsItem from "./components/ProjectsItem";
+
 import IconSection from "./components/IconSection";
 import EastIcon from "@mui/icons-material/East";
 
-import { Carousel, ScrollingCarousel } from '@trendyol-js/react-carousel';
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, FreeMode, Pagination } from "swiper";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
 
 
 const theme = createTheme({
@@ -44,6 +48,8 @@ function Projects() {
   const handleClick = (l) => () => {
     push("/", undefined, { locale: l });
   };
+
+
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
@@ -53,6 +59,7 @@ function Projects() {
         bannerTitle="banner-title-partners"
         bannerText="banner-text-partners"
       />
+      
       <div className="aboutus-container">
         <Typography id="section-title" variant="h4" component="h1">
           Partners
@@ -77,47 +84,51 @@ function Projects() {
           <EastIcon fontSize="small" sx={{ ml: 1, fontSize: "15px" }} />{" "}
         </Button>
 
-        <Carousel show={4.5} slide={2} transition={0.3} swiping={true}>
-          <img
-            src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-1.png"
-            width={250}
-            height={200}
-          />
-          <img
-            src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-1.png"
-            width={250}
-            height={200}
-          />
-          <img
-            src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-1.png"
-            width={250}
-            height={200}
-          />
-          <img
-            src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-1.png"
-            width={250}
-            height={200}
-          />
-          <img
-            src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-1.png"
-            width={250}
-            height={200}
-          />
-          <img
-            src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-1.png"
-            width={250}
-            height={200}
-          />
-          <img
-            src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-1.png"
-            width={250}
-            height={200}
-          />
-        </Carousel>
+        <Swiper
+          slidesPerView={4}
+          spaceBetween={10}
+          freeMode={true}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[FreeMode, Pagination, Autoplay, Navigation]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          navigation={true}
+          className="mySwiper logo-swiper"
+          breakpoints={{
+            200:{
+              slidesPerView: 2,
+            },
+            500:{
+              slidesPerView: 3,
+            },
+            1100:{
+              slidesPerView: 4,
+            }
+          }}
+        >
+          
+          <SwiperSlide className="logo-swiperslide"> <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_2328,h_891/https://ecowoodsolutions.com/wp-content/uploads/2019/10/main-logo-1.png" /> </SwiperSlide>
+          <SwiperSlide className="logo-swiperslide"> <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_2328,h_891/https://ecowoodsolutions.com/wp-content/uploads/2019/10/main-logo-1.png" /> </SwiperSlide>
+          <SwiperSlide className="logo-swiperslide"> <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_2328,h_891/https://ecowoodsolutions.com/wp-content/uploads/2019/10/main-logo-1.png" /> </SwiperSlide>
+          <SwiperSlide className="logo-swiperslide"> <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_2328,h_891/https://ecowoodsolutions.com/wp-content/uploads/2019/10/main-logo-1.png" /> </SwiperSlide>
+          <SwiperSlide className="logo-swiperslide"> <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_2328,h_891/https://ecowoodsolutions.com/wp-content/uploads/2019/10/main-logo-1.png" /> </SwiperSlide>
+          <SwiperSlide className="logo-swiperslide"> <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_2328,h_891/https://ecowoodsolutions.com/wp-content/uploads/2019/10/main-logo-1.png" /> </SwiperSlide>
+          <SwiperSlide className="logo-swiperslide"> <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_2328,h_891/https://ecowoodsolutions.com/wp-content/uploads/2019/10/main-logo-1.png" /> </SwiperSlide>
+          <SwiperSlide className="logo-swiperslide"> <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_2328,h_891/https://ecowoodsolutions.com/wp-content/uploads/2019/10/main-logo-1.png" /> </SwiperSlide>
+
+        </Swiper>
+
+
 
         <div className="partners-join-container">
           <div className="partners-join-content">
-            <Typography sx={{fontWeight:'700'}} variant="h2">BECOME OUR PARTNER TODAY</Typography>
+            <Typography sx={{ fontWeight: "700" }} variant="h2">
+              BECOME OUR PARTNER TODAY
+            </Typography>
             <Button variant="contained" className="section-join-button">
               {t("join-button")}
               <EastIcon fontSize="small" sx={{ ml: 1 }} />
@@ -125,8 +136,7 @@ function Projects() {
           </div>
         </div>
 
-        <IconSection/>
-
+        <IconSection />
       </div>
 
       <Footer />
