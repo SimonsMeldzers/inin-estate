@@ -1,0 +1,41 @@
+/* Icons info section */
+.section-icons-container{
+    margin-bottom: 30px;
+}
+
+.section-icons-item{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px !important;
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    min-height: 240px;
+}
+.section-icons-item h5{
+    color: black ;
+}
+#section-icons-text{
+    margin: 7px 0px 0px 38px;
+    color: #4f4f4f;
+}
+#section-icons-link{
+    color: #AC905E;
+    margin: auto auto 0px 38px;
+    justify-self: bottom;
+}
+#section-icons-link:hover{
+    color: #ac905ea2;
+    transition: 0.2s ease-in;
+    font-size: 17px !important;
+}
+
+.section-icons-item:hover{
+    transition: ease-out 0.3s;
+    transform: scale(1.02);
+    box-shadow: #ac905e6e 1px 1px 5px;
+
+}
+.section-icons-item:not(:hover){
+    transition: ease-out 0.3s;
+    transform: scale(1);
+}

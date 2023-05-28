@@ -4,6 +4,7 @@ import '../styles/components/Banner.css'
 import '../styles/components/HomeSection.css'
 import '../styles/components/Footer.css'
 import '../styles/components/ProjectsItem.css'
+import '../styles/components/IconSection.css'
 
 import '../styles/Projects.css'
 import '../styles/AboutUs.css'
