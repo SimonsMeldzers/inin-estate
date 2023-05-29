@@ -1,14 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 
 import { Button, Paper, Typography } from "@mui/material";
-import Link from "next/link";
 
 import EastIcon from "@mui/icons-material/East";
 import JoinSection from "./JoinSection";
 import IconSection from "./IconSection";
 
 import { useTranslation } from "next-i18next";
-
 
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -96,62 +94,6 @@ function HomeSection() {
 
         </Swiper>
       )}
-      {/* <div className="section-featured-container">
-        <Paper id="section-featured-item-1" className="section-featured-item" elevation={0}>
-          <img src="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg" />
-          <Typography id="section-featured-name" variant="h5">
-          {t("featured-name-1")}
-          </Typography>
-          <div className="section-featured-square-box">
-            <Typography sx={{ fontWeight: "400" }} variant="h6">
-              ~132 m²
-            </Typography>
-          </div>
-          <Typography id="section-featured-price" variant="subtitle2">
-            {t("featured-price")} ~70.000€
-          </Typography>
-          <Button className="section-featured-button" variant="contained">
-            {t("featured-button")}
-          </Button>
-        </Paper>
-
-        <Paper id="section-featured-item-2" className="section-featured-item">
-          <img src="https://i.ibb.co/yPzZt3X/house-for-two-artists-mikael-bergquist-arkitektkontor-9.jpg" />
-          <Typography id="section-featured-name" variant="h5">
-            {t("featured-name-2")}
-          </Typography>
-          <div className="section-featured-square-box">
-            <Typography sx={{ fontWeight: "400" }} variant="h6">
-              ~64 m²
-            </Typography>
-          </div>
-          <Typography id="section-featured-price" variant="subtitle2">
-            {t("featured-price")} ~30.000€
-          </Typography>
-          <Button className="section-featured-button" variant="contained">
-            {t("featured-button")}
-          </Button>
-        </Paper>
-
-        <Paper id="section-featured-item-3" className="section-featured-item">
-          <img src="https://i.ibb.co/58qfmg3/climate-change-image.jpg" />
-          <Typography id="section-featured-name" variant="h5">
-            {t("featured-name-3")}
-          </Typography>
-          <div className="section-featured-square-box">
-            <Typography sx={{ fontWeight: "400" }} variant="h6">
-              ~97 m²
-            </Typography>
-          </div>
-          <Typography id="section-featured-price" variant="subtitle2">
-            {t("featured-price")} ~65.000€
-          </Typography>
-          <Button className="section-featured-button" variant="contained">
-            {t("featured-button")}
-          </Button>
-        </Paper>
-      
-      </div> */}
 
       {/* Decore section */}
 

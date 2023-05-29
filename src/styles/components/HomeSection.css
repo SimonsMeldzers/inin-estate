@@ -149,6 +149,14 @@
 .section-decore-container {
     margin: 120px 0 70px;
 }
+.section-decore-container:hover{
+    transition: ease-out 0.3s;
+    transform: scale(1.005);
+}
+.section-decore-container:not(:hover){
+    transition: ease-out 0.3s;
+    transform: scale(1);
+}
 .section-decore{
     display: flex;
     height: 370px;
