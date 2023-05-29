@@ -15,6 +15,15 @@
         width: 95% !important;
     }
 }
+@media (max-width: 470px) {
+    .banner-content{
+        margin-top: 110px !important;
+        word-break: break-all;
+    }
+    .banner-container{
+        min-height: 750px !important;
+    }
+}
 
 .banner-container{
     /* background-image: url('https://i.ibb.co/XCb0B5G/main-banner.png'); */
