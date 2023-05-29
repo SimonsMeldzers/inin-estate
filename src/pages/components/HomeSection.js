@@ -57,8 +57,6 @@ function HomeSection() {
           className="mySwiper featured-swiper"
         >
 
-          {[...Array(2)].map((_, index) => (
-            <>
             <SwiperSlide className="swiper-slides">
             <FeaturedItem
               title="featured-name-1"
@@ -88,8 +86,35 @@ function HomeSection() {
               img2="https://static.dezeen.com/uploads/2015/07/Cedar-Lodges-by-Adam-Knibb-Architects_dezeen_468_7.jpg"
             />
           </SwiperSlide>
-          </>
-          ))}
+            <SwiperSlide className="swiper-slides">
+            <FeaturedItem
+              title="featured-name-1"
+              sqm="132"
+              price="70.000"
+              img1="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg"
+              img2="https://cdn.jacobsenarquitetura.com/uploads/2015/09/2008_residencia_mdt_4-scaled-1280x0-c-default.webp"
+            />
+          </SwiperSlide>
+
+          <SwiperSlide className="swiper-slides">
+            <FeaturedItem
+              title="featured-name-2"
+              sqm="64"
+              price="30.000"
+              img1="https://i.ibb.co/yPzZt3X/house-for-two-artists-mikael-bergquist-arkitektkontor-9.jpg"
+              img2="https://images.adsttc.com/media/images/63c7/326a/760d/d27d/ee12/9d92/slideshow/house-for-two-artists-mikael-bergquist-arkitektkontor_7.jpg?1673999102"
+            />
+          </SwiperSlide>
+
+          <SwiperSlide className="swiper-slides">
+            <FeaturedItem
+              title="featured-name-3"
+              sqm="97"
+              price="65.000"
+              img1="https://static.dezeen.com/uploads/2015/07/Cedar-Lodges-by-Adam-Knibb-Architects_dezeen_784_0.jpg"
+              img2="https://static.dezeen.com/uploads/2015/07/Cedar-Lodges-by-Adam-Knibb-Architects_dezeen_468_7.jpg"
+            />
+          </SwiperSlide>
           
 
         </Swiper>

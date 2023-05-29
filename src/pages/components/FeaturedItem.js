@@ -16,7 +16,7 @@ function FeaturedItem({ img1, img2, title, sqm, price }) {
   };
 
   return (
-    <div >
+    <div className="featured-item-container">
       <img
         onMouseOver={handleHover}
         onMouseOut={handleLeave}
