@@ -39,3 +39,15 @@
     transition: ease-out 0.3s;
     transform: scale(1);
 }
+
+@media (max-width: 1750px) {
+    .section-icons-item h5{
+        word-break: break-all;
+    }
+}
+@media (max-width: 600px) {
+    .section-icons-container{
+        width: 95% !important;
+        align-self: center;
+    }
+}
