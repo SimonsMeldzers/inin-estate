@@ -17,7 +17,7 @@ function IconSection() {
     <div className="section-icons-container">
         <Grid container rowSpacing={2} columnSpacing={{ xs: 2, md: 2 }}>
 
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} xl={3}>
           <Paper className='section-icons-item'>
             <div style={{display: 'flex'}}>
                 <img width="30px" height="30px" src="https://i.ibb.co/cDNfNrL/hand.png" style={{marginRight:'7px'}}/>
@@ -32,7 +32,7 @@ function IconSection() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} xl={3}>
           <Paper className='section-icons-item'>
             <div style={{display: 'flex', wordBreak: 'break-all'}}>
                 <img width="30px" height="30px" src="https://i.ibb.co/WpT7YmB/leaves-1.png" style={{marginRight:'7px'}}/>
@@ -47,7 +47,7 @@ function IconSection() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} xl={3}>
           <Paper className='section-icons-item'>
             <div style={{display: 'flex'}}>
                 <img width="30px" height="30px" src="https://i.ibb.co/7zcKPXL/light-bulb-1.png" style={{marginRight:'7px'}}/>
@@ -62,7 +62,7 @@ function IconSection() {
           </Paper>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} xl={3}>
           <Paper className='section-icons-item'>
             <div style={{display: 'flex'}}>
                 <img width="30px" height="30px" src="https://i.ibb.co/7rJD8bY/smart-home-1.png" style={{marginRight:'7px'}}/>
