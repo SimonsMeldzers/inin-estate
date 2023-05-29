@@ -10,6 +10,7 @@ import '../styles/Projects.css'
 import '../styles/AboutUs.css'
 import '../styles/Partners.css'
 import '../styles/Exports.css'
+import '../styles/404.css'
 
 import { appWithTranslation } from 'next-i18next'
 
