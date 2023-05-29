@@ -11,7 +11,6 @@ import { useRouter } from "next/router";
 
 import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import ProjectsItem from "./components/ProjectsItem";
 import IconSection from "./components/IconSection";
@@ -40,6 +39,7 @@ function Projects() {
   const handleClick = (l) => () => {
     push("/", undefined, { locale: l });
   };
+
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
