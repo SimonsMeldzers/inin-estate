@@ -14,6 +14,7 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import ProjectsItem from "./components/ProjectsItem";
 import IconSection from "./components/IconSection";
+import { useEffect, useState } from "react";
 
 const theme = createTheme({
   palette: {
@@ -34,14 +35,17 @@ const theme = createTheme({
 function Projects() {
   const { t } = useTranslation();
 
-  const { locale, locales, push } = useRouter();
+  
+  const [domLoaded, setDomLoaded] = useState(false);
 
-  const handleClick = (l) => () => {
-    push("/", undefined, { locale: l });
-  };
+  useEffect(() => {
+    setDomLoaded(true);
+  }, []);
 
   return (
     <ThemeProvider theme={theme}>
+      {domLoaded && (
+      <>
       <Navbar />
       {/* Bannertitle and Bannertext are found in the locales folder*/}
       <Banner
@@ -52,11 +56,10 @@ function Projects() {
 
       <div className="projects-container">
         <Typography id="section-title" variant="h4" component="h1">
-          Our Projects
+          {t("projects-title")}
         </Typography>
         <Typography id="section-subtitle" variant="subtitle" component="p">
-          Discover Our Projects - a curated collection of our finest custom
-          wooden facade houses.
+          {t("projects-sub-title")}
         </Typography>
 
         <Box mt={5} mb={8} sx={{ width: "100%" }}>
@@ -84,6 +87,8 @@ function Projects() {
       </div>
       
       <Footer />
+      </>
+      )}
     </ThemeProvider>
   );
 }

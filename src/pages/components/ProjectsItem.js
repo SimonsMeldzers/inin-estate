@@ -1,7 +1,10 @@
 import { Paper, Typography } from "@mui/material";
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function ProjectsItem() {
+  const { t } = useTranslation();
+
   const [hovered, setHovered] = useState(false);
 
   const handleHover = () => {
@@ -32,7 +35,7 @@ function ProjectsItem() {
         62.1 m²
       </div>
       <div className="projects-item-content">
-        <Typography variant="h5">Open Terrace Chalet</Typography>
+        <Typography variant="h5">{t("projects-item-name")}</Typography>
         <Typography variant="h6"> ~49.000€ </Typography>
       </div>
     </Paper>

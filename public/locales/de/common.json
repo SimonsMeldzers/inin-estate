@@ -47,24 +47,55 @@
 
     "banner-title-projects" : "Vollständiges Werk",
     "banner-text-projects" : "Entdecken Sie die sorgfältig gestalteten Innenräume, die fachmännische Handwerkskunst und die faszinierenden Außenbereiche, die unsere Arbeit ausmachen.",
-    
-    
-    
-    
-    "banner-title-aboutus" : "Qualitätsarbeit",
-    "banner-text-aboutus" : "Ihr Zuhause sollte ein Spiegelbild Ihres einzigartigen Lebensstils und persönlichen Geschmacks sein. Deshalb bieten wir maßgeschneiderte Lösungen und arbeiten während des gesamten Entwurfs- und Bauprozesses eng mit Ihnen zusammen.",
- 
+    "projects-title": "Unsere Projekte",
+    "projects-sub-title" : "Entdecken Sie unsere Projekte - eine sorgfältig ausgewählte Sammlung unserer besten maßgefertigten Holzfassadenhäuser.",
+    "projects-item-name": "Offene Terrassenchalet",
+  
 
-
-
+    
     "banner-title-partners" : "Unsere Partner",
     "banner-text-partners" : "Wir sind stolz darauf, mit einer ausgewählten Gruppe geschätzter Partner zusammenzuarbeiten, die unser Engagement für Spitzenleistungen und unsere Vision für die Schaffung außergewöhnlicher, maßgeschneiderter Häuser mit Holzfassade teilen.",
+    "partners-title" : "Partner",
+    "partners-sub-title" : "Wir schätzen das Vertrauen, das unsere Partner in uns setzen, und erkennen die maßgebliche Rolle an, die sie für den Erfolg unserer Projekte spielen. Durch nahtloses Zusammenarbeiten sind wir in der Lage, herausragende Ergebnisse zu liefern und Häuser zu schaffen, die die Erwartungen übertreffen und den Test der Zeit bestehen. InIn ist stets auf der Suche nach neuen Möglichkeiten zur Zusammenarbeit mit gleichgesinnten Fachleuten. Wenn Sie ein Lieferant für nachhaltige Materialien, ein innovativer Technologieanbieter oder ein erfahrener Auftragnehmer mit einem Bekenntnis zur handwerklichen Qualität sind, laden wir Sie ein, potenzielle Partnerschaftsmöglichkeiten zu erkunden.",
+    "partners-join" : "WERDEN SIE NOCH HEUTE UNSER PARTNER.",
+    "partners-contacts-button": "KONTAKTE",
    
 
 
 
     "banner-title-exports" : "Exporte",
     "banner-text-exports" : "Ganz gleich, ob Sie Einzelhausbesitzer, Bauträger oder Architekt sind, wir sind bestrebt, Ihnen die höchsten Standards an Handwerkskunst und Service zu bieten.",
- 
-    "" : ""
+    "exports-title": "Exporte in ganz Europa",
+    "exports-sub-title" : "Die Logistik des Exports in Europa zu bewältigen, ist unsere Expertise. Wir haben zuverlässige Partnerschaften und effiziente Prozesse etabliert, um ein reibungsloses Erlebnis vom Transport bis zur Lieferung vor Ort zu gewährleisten. Wir freuen uns darauf, mit europäischen Kunden in Kontakt zu treten, die die Kunstfertigkeit und Qualität unserer maßgefertigten Holzfassadenhäuser zu schätzen wissen. Kontaktieren Sie uns noch heute, um herauszufinden, wie wir Ihre Vision zum Leben erwecken und ein Zuhause schaffen können, das den Charme und Stil Europas verkörpert. Kontaktieren Sie uns noch heute und lassen Sie uns gemeinsam eine Reise antreten, um Ihr perfektes maßgefertigtes Holzfassadenhaus zu erschaffen.",
+    "exports-contacts-button" : "KONTAKTE",
+    "exports-icons-1" : " Internationale Reichweite",
+    "exports-icons-1-text" : "Exporting across Europe, our custom wooden facade houses have reached homes in Italy, Sweden, France, and more. Our proven track record speaks to our ability to serve clients beyond borders.",
+    "exports-icons-2" : "Maßgeschneidertes Design für europäischen Charme",
+    "exports-icons-2-text" : "Wir gestalten unsere maßgefertigten Holzhäuser, um den einzigartigen Charme jeder europäischen Region widerzuspiegeln. Von mediterraner Eleganz bis skandinavischem Minimalismus fügen sich unsere Häuser nahtlos in lokale architektonische Stile ein.",
+    "exports-icons-3" : "Reibungslose Logistik",
+    "exports-icons-3-text" : "Mit unserer Expertise in der internationalen Logistik sorgen wir für ein reibungsloses Erlebnis. Vom Transport bis zur Zollabfertigung kümmert sich unser engagiertes Team um alle Details für einen problemlosen Lieferprozess.",
+    "exports-icons-4" : "Nachhaltigkeitsengagement",
+    "exports-icons-4-text" : "Nachhaltigkeit steht im Mittelpunkt unseres Handelns. Wir beziehen unsere Materialien verantwortungsvoll, legen Wert auf umweltfreundliche Praktiken und schaffen maßgefertigte Holzfassadenhäuser, die zeitlose Schönheit verkörpern und gleichzeitig die Umwelt respektieren.",
+
+
+
+
+    "banner-title-aboutus" : "Qualität der Arbeit",
+    "banner-text-aboutus" : "Ihr Zuhause sollte ein Spiegelbild Ihres individuellen Lebensstils und persönlichen Geschmacks sein. Aus diesem Grund bieten wir maßgeschneiderte Lösungen an und arbeiten eng mit Ihnen zusammen während des gesamten Design- und Bauprozesses.",
+    "aboutus-sub-title" : "Bei InIn Estate widmen wir uns nicht nur dem Bau von Häusern, sondern auch dem Schaffen von Zuhause, das inspiriert und lang anhaltenden Komfort bietet. Unser Ziel ist es, Ihre Erwartungen zu übertreffen und Räume zu schaffen, die Sie und Ihre Lieben wirklich Ihr Eigen nennen können. Von der ersten Konzeption bis zu den letzten Feinheiten gewährleistet unsere Liebe zum Detail, dass jeder Aspekt Ihres Traumhauses sorgfältig gestaltet wird. Kontaktieren Sie uns noch heute und lassen Sie uns gemeinsam eine Reise antreten, um Ihr perfektes maßgefertigtes Holzfassadenhaus zu erschaffen.",
+    "aboutus-contacts-button" : "KONTAKTE",
+    "aboutus-questions-title" : "Häufig gestellte Fragen",
+    "aboutus-questions-1" : "Wie lange dauert es normalerweise, ein maßgefertigtes Holzfassadenhaus zu entwerfen und zu bauen?",
+    "aboutus-questions-1-answer" : " Die Zeitspanne für das Design und den Bau eines maßgefertigten Holzfassadenhauses kann je nach verschiedenen Faktoren variieren, wie zum Beispiel der Komplexität des Designs, der Größe des Hauses und den Genehmigungsverfahren. Im Allgemeinen kann es mehrere Monate bis hin zu einem Jahr oder länger dauern, um den gesamten Prozess abzuschließen, einschließlich der Entwicklung des Designs, dem Erhalt der Genehmigungen und der Bauarbeiten. Ein genauer Zeitplan kann während der anfänglichen Beratungsphase besprochen und festgelegt werden.",
+    "aboutus-questions-2" : "Was sind die Vorteile der Wahl eines maßgefertigten Holzfassadenhauses gegenüber einer traditionellen Bauweise?",
+    "aboutus-questions-2-answer" : "Der Vorteil der Wahl eines maßgefertigten Holzfassadenhauses gegenüber traditionellem Bau ist die Möglichkeit, einen wirklich einzigartigen und personalisierten Wohnraum zu schaffen. Mit individuellen Designs haben Sie die Freiheit, jeden Aspekt Ihres Hauses an Ihre spezifischen Bedürfnisse, Vorlieben und Ihren Lebensstil anzupassen. Das Ergebnis ist eine einzigartige Residenz, die Ihre Individualität widerspiegelt.",
+    "aboutus-questions-3" : "Bieten Sie irgendwelche Garantien für die Bauweise und verwendeten Materialien an?",
+    "aboutus-questions-3-answer" : " Ja, wir bieten Garantien und Gewährleistungen, um die Qualität unserer Bauweise und verwendeten Materialien zu gewährleisten. Einzelheiten zu den spezifischen Garantien und Gewährleistungen werden während der Beratungs- und Vertragsphase bereitgestellt.",
+    "aboutus-questions-4" : "Kann ich spezifische Designmerkmale einbinden oder das Layout meines maßgefertigten Holzfassadenhauses personalisieren?",
+    "aboutus-questions-4-answer" : " Natürlich! Wir sind darauf spezialisiert, maßgeschneiderte Häuser nach Ihren spezifischen Bedürfnissen und Vorlieben zu gestalten. Sie können mit unserem Designteam zusammenarbeiten, um spezifische Designmerkmale einzubinden und das Layout entsprechend Ihrem Lebensstil zu personalisieren. Sind maßgefertigte Holzfassadenhäuser im Vergleich zur Standardbauweise teurer?",
+    "aboutus-questions-5" : "Sind maßgefertigte Holzfassadenhäuser im Vergleich zur Standardbauweise teurer?",
+    "aboutus-questions-5-answer" : "Die Kosten für ein maßgefertigtes Holzfassadenhaus können je nach Größe, Designkomplexität und den ausgewählten Materialien variieren. Obwohl individuell gestaltete Häuser möglicherweise zusätzliche Kosten mit sich bringen, bieten sie den Vorteil einer maßgeschneiderten Gestaltung und einzigartiger Merkmale, die Ihren individuellen Stil widerspiegeln. Wir arbeiten eng mit Ihnen zusammen, um sicherzustellen, dass das Projekt in Ihr Budget passt und den bestmöglichen Wert für Ihre Investition bietet.",
+    "aboutus-questions-6" : "Können Sie bei der Beschaffung der erforderlichen Genehmigungen und Zulassungen für den Bau eines maßgefertigten Holzfassadenhauses behilflich sein?",
+    "aboutus-questions-6-answer" : "Absolut! Wir haben ein Team, das erfahren ist im Umgang mit Genehmigungs- und Zulassungsverfahren. Wir werden Ihnen bei der Beschaffung der erforderlichen Genehmigungen und Zulassungen helfen, um einen reibungslosen Bauprozess zu gewährleisten."
+
 }

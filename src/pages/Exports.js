@@ -55,24 +55,13 @@ function Projects() {
       />
       <div className="aboutus-container">
         <Typography id="section-title" variant="h4" component="h1">
-          Exports around Europe
+          {t("exports-title")}
         </Typography>
         <Typography id="aboutus-text" variant="subtitle1" component="p">
-          Navigating the logistics of European exports is our expertise. We have
-          established reliable partnerships and efficient processes to ensure a
-          seamless experience, from transportation to on-site delivery.{" "}
-          <br></br>
-          We are excited to connect with European clients who appreciate the
-          artistry and quality of our custom wooden facade houses. Contact us
-          today to explore how we can bring your vision to life and create a
-          home that embodies European charm and style.
-          <br></br>
-          Contact us today and let us embark on a journey together to create
-          your perfect custom wooden facade house.
+          {t("exports-sub-title")}
         </Typography>
         <Button className="aboutus-button" variant="contained">
-          {" "}
-          Contatcs{" "}
+          {t("exports-contacts-button")}
           <EastIcon fontSize="small" sx={{ ml: 1, fontSize: "15px" }} />{" "}
         </Button>
 
@@ -85,55 +74,41 @@ function Projects() {
           <Grid item xs={12} md={6} className="exports-icons-content">
             <div className="exports-icons-content-sub">
               <PublicIcon className="exports-icons-icon" sx={{ fontSize: "40px", color: "#AC905E" , marginRight: '10px'}} />
-              <Typography className="exports-icons-title" variant="h6"> International Reach </Typography>
+              <Typography className="exports-icons-title" variant="h6"> {t("exports-icons-1")}</Typography>
             </div>
             <Typography id="exports-subtitle1" variant="subitle1" component="p">
-              {" "}
-              Exporting across Europe, our custom wooden facade houses have
-              reached homes in Italy, Sweden, France, and more. Our proven track
-              record speaks to our ability to serve clients beyond borders.{" "}
+              {t("exports-icons-1-text")}
             </Typography>
           </Grid>
           <Grid item xs={12} md={6} className="exports-icons-content">
             <div className="exports-icons-content-sub">
               <HandshakeIcon className="exports-icons-icon" sx={{ fontSize: "40px", color: "#AC905E" , marginRight: '10px'}} />
               <Typography className="exports-icons-title" variant="h6">
-                {" "}
-                Tailored Design for European Charm{" "}
+              {t("exports-icons-2")}
+
               </Typography>
             </div>
             <Typography id="exports-subtitle1" variant="subitle1" component="p">
-              {" "}
-              We design our custom wooden houses to reflect the unique charm of
-              each European region. From Mediterranean elegance to Scandinavian
-              minimalism, our homes seamlessly blend with local architectural
-              styles.{" "}
+            {t("exports-icons-2-text")}
+
             </Typography>
           </Grid>
           <Grid item xs={12} md={6} className="exports-icons-content">
             <div className="exports-icons-content-sub">
               <LocalShippingIcon className="exports-icons-icon" sx={{ fontSize: "40px", marginRight: '10px', color: "#AC905E" }} />
-              <Typography className="exports-icons-title" variant="h6"> Smooth Logistics </Typography>
+              <Typography className="exports-icons-title" variant="h6"> {t("exports-icons-3")} </Typography>
             </div>
             <Typography id="exports-subtitle1" variant="subitle1" component="p">
-              {" "}
-              With expertise in international logistics, we ensure a seamless
-              experience. From transportation to customs clearance, our
-              dedicated team handles the details for a hassle-free delivery
-              process.{" "}
+            {t("exports-icons-3-text")}
             </Typography>
           </Grid>
           <Grid item xs={12} md={6} className="exports-icons-content">
             <div className="exports-icons-content-sub">
               <ForestIcon className="exports-icons-icon" sx={{ fontSize: "40px", color: "#AC905E" , marginRight: '10px'}} />
-              <Typography className="exports-icons-title" variant="h6"> Sustainability Commitment </Typography>
+              <Typography className="exports-icons-title" variant="h6"> {t("exports-icons-4")} </Typography>
             </div>
             <Typography id="exports-subtitle1" variant="subitle1" component="p">
-              {" "}
-              Sustainability is at the heart of what we do. We source
-              responsibly, prioritize eco-friendly practices, and create custom
-              wooden facade houses that embody enduring beauty while respecting
-              the environment.{" "}
+            {t("exports-icons-4-text")}
             </Typography>
           </Grid>
         </Grid>

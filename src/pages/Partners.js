@@ -43,13 +43,6 @@ const theme = createTheme({
 function Projects() {
   const { t } = useTranslation();
 
-  const { locale, locales, push } = useRouter();
-
-  const handleClick = (l) => () => {
-    push("/", undefined, { locale: l });
-  };
-
-
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
@@ -62,25 +55,14 @@ function Projects() {
       
       <div className="aboutus-container">
         <Typography id="section-title" variant="h4" component="h1">
-          Partners
+          {t("partners-title")}
         </Typography>
         <Typography id="aboutus-text" variant="subtitle1" component="p">
-          We value the trust our partners place in us and recognize the
-          instrumental role they play in the success of our projects. By working
-          together seamlessly, we are able to deliver outstanding results,
-          creating homes that exceed expectations and stand the test of time.
-          <br></br>
-          <br></br>
-          InIn is always seeking new opportunities to collaborate with
-          like-minded professionals. If you are a supplier of sustainable
-          materials, an innovative technology provider, or a skilled contractor
-          with a commitment to quality craftsmanship, we invite you to explore
-          potential partnership opportunities.
+          {t("partners-sub-title")}
         </Typography>
 
         <Button className="aboutus-button" variant="contained">
-          {" "}
-          Contatcs{" "}
+        {t("partners-contacts-button")}
           <EastIcon fontSize="small" sx={{ ml: 1, fontSize: "15px" }} />{" "}
         </Button>
 
@@ -127,7 +109,7 @@ function Projects() {
         <div className="partners-join-container">
           <div className="partners-join-content">
             <Typography sx={{ fontWeight: "700" }} variant="h2">
-              BECOME OUR PARTNER TODAY
+            {t("partners-join")}
             </Typography>
             <Button variant="contained" className="section-join-button">
               {t("join-button")}
