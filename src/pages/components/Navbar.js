@@ -10,6 +10,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import Modal from '@mui/material/Modal';
 
 import { useState } from "react";
 
@@ -21,6 +22,20 @@ import Router from "next/router";
 
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Link from "next/link";
+
+
+const style = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 400,
+  bgcolor: 'background.paper',
+  boxShadow: 'box-shadow: rgba(0, 0, 0, 0.8) 0px -1px 8px',
+  p: 4,
+};
+
+
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -47,10 +62,30 @@ function Navbar() {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
+
   const { t } = useTranslation();
+
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
   return (
     <AppBar position="absolute" className="navbar">
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={style}>
+          <Typography id="modal-modal-title" variant="h6" component="h2">
+            {t("modal-title")}
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+            {t("modal-text")}
+          </Typography>
+        </Box>
+      </Modal>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img
@@ -224,6 +259,7 @@ function Navbar() {
               variant="text"
               color="primary"
               sx={{ color: "white" }}
+              onClick={handleOpen}
             >
               {" "}
               {t("navbar-link-clientzone")}{" "}
