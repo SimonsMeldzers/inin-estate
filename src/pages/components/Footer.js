@@ -42,7 +42,7 @@ function Footer() {
           <LocalPhoneOutlinedIcon id="phone" sx={{color:'#AC905E !important'}} />
           <Typography variant="subtitle1" className="footer-phone">
             {" "}
-            +371 22222222
+            +371 29494093
           </Typography>
         </div>
 
@@ -50,7 +50,7 @@ function Footer() {
           <EmailOutlinedIcon id="mail" sx={{color:'#AC905E !important'}} />
           <Typography variant="subtitle1" className="footer-phone">
             {" "}
-            inin-estate@gmail.com{" "}
+            info@ininestate.com{" "}
           </Typography>
         </div>
 
