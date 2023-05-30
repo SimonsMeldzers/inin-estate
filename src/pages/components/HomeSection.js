@@ -89,34 +89,24 @@ function HomeSection() {
           </SwiperSlide>
             <SwiperSlide className="swiper-slides">
             <FeaturedItem
-              title="featured-name-1"
-              sqm="132"
-              price="70.000"
-              img1="https://i.ibb.co/B2FgfHV/house-with-wood-facade-reveals-the-diversity-of-teak-2-1679614331.jpg"
-              img2="https://cdn.jacobsenarquitetura.com/uploads/2015/09/2008_residencia_mdt_4-scaled-1280x0-c-default.webp"
+              title="featured-name-4"
+              sqm="32"
+              price="45.000"
+              img1="https://cdn.mos.cms.futurecdn.net/Q5xNSzwwWh2HarSx6u8G4S-970-80.jpg.webp"
+              img2="https://cdn.mos.cms.futurecdn.net/H4XEmRiipqo2HJdmTkC2Ge-970-80.jpg.webp"
             />
           </SwiperSlide>
 
           <SwiperSlide className="swiper-slides">
             <FeaturedItem
-              title="featured-name-2"
-              sqm="64"
-              price="30.000"
-              img1="https://i.ibb.co/yPzZt3X/house-for-two-artists-mikael-bergquist-arkitektkontor-9.jpg"
-              img2="https://images.adsttc.com/media/images/63c7/326a/760d/d27d/ee12/9d92/slideshow/house-for-two-artists-mikael-bergquist-arkitektkontor_7.jpg?1673999102"
+              title="featured-name-5"
+              sqm="45"
+              price="39.000"
+              img1="https://cdn.mos.cms.futurecdn.net/Mmf6wbfsfcbG8Kb4EiQZNg-970-80.jpg.webp"
+              img2="https://cdn.mos.cms.futurecdn.net/z2yr6PcqyMWgVkvYJmUVge-970-80.jpg.webp"
             />
           </SwiperSlide>
-
-          <SwiperSlide className="swiper-slides">
-            <FeaturedItem
-              title="featured-name-3"
-              sqm="97"
-              price="65.000"
-              img1="https://static.dezeen.com/uploads/2015/07/Cedar-Lodges-by-Adam-Knibb-Architects_dezeen_784_0.jpg"
-              img2="https://static.dezeen.com/uploads/2015/07/Cedar-Lodges-by-Adam-Knibb-Architects_dezeen_468_7.jpg"
-            />
-          </SwiperSlide>
-          
+        
 
         </Swiper>
       )}
