@@ -15,6 +15,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination } from "swiper";
 import FeaturedItem from "./FeaturedItem";
+import Link from "next/link";
 
 
 
@@ -142,9 +143,11 @@ function HomeSection() {
             >
               - InIn Estate
             </Typography>
-            <Button className="section-decore-right-button" variant="contained">
-              {t("decore-button")} <EastIcon fontSize="small" sx={{ ml: 1 }} />
-            </Button>
+            <Link href='/AboutUs'>
+              <Button className="section-decore-right-button" variant="contained">
+                {t("decore-button")} <EastIcon fontSize="small" sx={{ ml: 1 }} />
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

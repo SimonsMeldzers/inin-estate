@@ -27,7 +27,7 @@ function FeaturedItem({ img1, img2, title, sqm, price }) {
     setHovered(false);
   };
 
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 

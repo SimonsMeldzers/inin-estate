@@ -24,7 +24,7 @@ function IconSection() {
                 <Typography variant='h5'> {t("icons-name-1")} </Typography>
             </div>
             <Typography id="section-icons-text" variant='subtitle' component='p'> {t("icons-text-1")}</Typography>
-            <Link href='/' id='section-icons-link'> 
+            <Link href='/Projects' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
                   {t("icons-button")} <EastIcon fontSize="small" sx={{ pt: 1}} /> 
                 </Typography>
@@ -39,7 +39,7 @@ function IconSection() {
                 <Typography variant='h5'> {t("icons-name-2")} </Typography>
             </div>
             <Typography id="section-icons-text" variant='subtitle' component='p'> {t("icons-text-2")}</Typography>
-            <Link href='/' id='section-icons-link'> 
+            <Link href='/Projects' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
                   {t("icons-button")} <EastIcon fontSize="small" sx={{ pt: 1}} /> 
                 </Typography>
@@ -54,7 +54,7 @@ function IconSection() {
                 <Typography variant='h5'> {t("icons-name-3")} </Typography>
             </div>
             <Typography id="section-icons-text" variant='subtitle' component='p'> {t("icons-text-3")}</Typography>
-            <Link href='/' id='section-icons-link'> 
+            <Link href='/Projects' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
                   {t("icons-button")} <EastIcon fontSize="small" sx={{ pt: 1}} /> 
                 </Typography>
@@ -69,7 +69,7 @@ function IconSection() {
                 <Typography variant='h5'> {t("icons-name-4")} </Typography>
             </div>
             <Typography id="section-icons-text" variant='subtitle' component='p'> {t("icons-text-4")}</Typography>
-            <Link href='/' id='section-icons-link'> 
+            <Link href='/Projects' id='section-icons-link'> 
                 <Typography variant='subtitle'> 
                   {t("icons-button")} <EastIcon fontSize="small" sx={{ pt: 1}} /> 
                 </Typography>

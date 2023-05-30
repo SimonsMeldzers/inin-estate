@@ -39,11 +39,13 @@ const theme = createTheme({
 function Projects() {
   const { t } = useTranslation();
 
-  const { locale, locales, push } = useRouter();
-
-  const handleClick = (l) => () => {
-    push("/", undefined, { locale: l });
+  const handleScrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth',
+    });
   };
+
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
@@ -60,7 +62,7 @@ function Projects() {
         <Typography id="aboutus-text" variant="subtitle1" component="p">
           {t("exports-sub-title")}
         </Typography>
-        <Button className="aboutus-button" variant="contained">
+        <Button onClick={handleScrollToBottom} className="aboutus-button" variant="contained">
           {t("exports-contacts-button")}
           <EastIcon fontSize="small" sx={{ ml: 1, fontSize: "15px" }} />{" "}
         </Button>

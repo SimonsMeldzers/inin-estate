@@ -36,7 +36,12 @@ const theme = createTheme({
 
 function AboutUs() {
   const { t } = useTranslation();
-
+  const handleScrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth',
+    });
+  };
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
@@ -55,7 +60,7 @@ function AboutUs() {
           {t("aboutus-sub-title")}
         </Typography>
 
-        <Button className="aboutus-button" variant="contained">
+        <Button onClick={handleScrollToBottom} className="aboutus-button" variant="contained">
           {t("aboutus-contacts-button")}
           <EastIcon fontSize="small" sx={{ ml: 1, fontSize: "15px" }} />{" "}
         </Button>
