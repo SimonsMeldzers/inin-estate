@@ -88,10 +88,12 @@ function Navbar() {
       </Modal>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+          <Link href='/'>
           <img
             className="navbar-pc-logo"
             src="https://i.ibb.co/bFs3Vms/inin-removebg-preview-1.png"
           />
+          </Link>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
