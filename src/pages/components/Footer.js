@@ -4,6 +4,8 @@ import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import Grid from '@mui/material/Grid';
+
 
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
@@ -34,6 +36,17 @@ function Footer() {
 
   return (
     <>
+    <div className="footer-eu-container">
+      <Grid container spacing={2}>
+        <Grid item md={12} lg={5}>
+          <img src="https://i.ibb.co/dGRHPcK/picture1-8.png" alt="lv eu" />
+        </Grid>
+        <Grid item md={12} lg={7}>
+        <p>{t("footer-eu-text")}</p>
+        </Grid>
+      </Grid>
+    
+    </div>
     <div className="footer-container">
       <div className="footer-column">
         <Typography variant="h3"> {t("footer-name-1")} </Typography>
@@ -115,7 +128,7 @@ function Footer() {
             <Typography variant='subtitle' component='p'>
             SIA InIn Estate © {t("mini-footer-text")} <br></br>
             </Typography>
-            <Typography varaiant='subtitle' component='p'>
+            <Typography varaiant='subtitle' component='p' style={{fontSize: "15px", fontStyle: "italic"}}>
             {t("mini-footer-made-by")}  <Link style={{marginLeft: "5px", textDecoration: "underline"}} href='https://en.ridoncompany.com/'> Ridon </Link>
             </Typography>
             </span>
