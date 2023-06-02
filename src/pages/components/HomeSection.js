@@ -13,7 +13,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination } from "swiper";
+import { FreeMode, Pagination, Autoplay } from "swiper";
 import FeaturedItem from "./FeaturedItem";
 import Link from "next/link";
 
@@ -37,6 +37,10 @@ function HomeSection() {
       </Typography>
       {domLoaded && (
         <Swiper
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           slidesPerView={3}
           spaceBetween={30}
           freeMode={true}
@@ -54,7 +58,7 @@ function HomeSection() {
               slidesPerView: 3,
             },
           }}
-          modules={[FreeMode, Pagination]}
+          modules={[Autoplay, FreeMode, Pagination]}
           className="mySwiper featured-swiper"
         >
 

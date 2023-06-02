@@ -369,6 +369,10 @@
     margin-top: 28px;
     width: 100%;
     height: auto;
+    cursor: -webkit-grab; cursor: grab;
+}
+.featured-swiper:active{
+    cursor: -webkit-grabbing; cursor: grabbing;
 }
 
 .swiper-slides{
