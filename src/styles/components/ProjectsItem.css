@@ -26,6 +26,7 @@
     height: 300px;
     object-fit: cover;
     border-bottom: solid 5px #AC905E;
+    cursor: pointer;
 }
 
 .projects-item-content{

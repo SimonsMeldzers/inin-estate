@@ -22,6 +22,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^12.3.1",
-    "swiper": "^9.3.2"
+    "swiper": "^9.3.2",
+    "yet-another-react-lightbox": "^3.10.1"
   }
 }
