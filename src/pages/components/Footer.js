@@ -111,9 +111,15 @@ function Footer() {
     </div>
     <div className='mini-footer-container'>
         <div className='mini-footer-content'>
+          <span>
             <Typography variant='subtitle' component='p'>
-            SIA InIn Estate © {t("mini-footer-text")}
+            SIA InIn Estate © {t("mini-footer-text")} <br></br>
             </Typography>
+            <Typography varaiant='subtitle' component='p'>
+            {t("mini-footer-made-by")}  <Link style={{marginLeft: "5px", textDecoration: "underline"}} href='https://en.ridoncompany.com/'> Ridon </Link>
+            </Typography>
+            </span>
+            
             <Box
                   id="footer-lng-selector"
                   sx={{
